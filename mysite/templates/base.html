@@ -1,0 +1,96 @@
+{% load cms_tags staticfiles sekizai_tags static menu_tags %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}This is my new project home page{% endblock title %}</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Silver State Coffee </title>
+
+        <link rel="stylesheet"  href="/static/foundation/bower_components/foundation-sites/dist/foundation.css">
+        <link type="text/css" link rel="stylesheet" href="/static/styles/stylesheets/Roast.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{% static 'foundation/webicons/webicons-master/webicons.css' %}" media="screen" title="no title" charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+        {% render_block "css" %}
+    </head>
+
+    <body class="{% block body_class %}{% endblock %} svg">
+
+        {% cms_toolbar %}
+        <div class="container">
+            <!-- NAVIGATION -->
+            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+                <button class="menu-icon my_button" type="button" data-toggle></button>
+                <div class="title-bar-title" >Eye Candy Salon </div>
+            </div>
+
+            <header class="menu-text align-center">
+            EYE CANDY SALON
+            </header>
+
+            <div class="top-bar" id="main-menu">
+                
+
+          
+
+                <div class="top-bar-right align-center ">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <!--dynamically generates the menu -->
+                        {% show_menu 0 1 100 100 "menu.html" %}
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+      <!-- LEFT side -->
+
+                <!--NOT NEEDED RIGHT NOW.
+          
+                <div class="top-bar-left hide-for-small-only">
+                
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li class="menu-text"> </li>
+                    </ul>
+
+                -->    
+
+               
+               <!-- RIGHT side -->
+
+               <!-- NOT NEEDED RIGHT NOW. -->
+                          <!-- Social Media Icons -->
+
+                    <!-- NOT NEEDED YET
+                    
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/SilverStateCoffeeCo/">
+                            <div class="webicon facebook"></div>
+                        </a>
+
+                        <a href="mailto:SilverStateCoffeeCo@icloud.com">
+                            <div class="webicon mail"></div>
+                        </a>
+                    </div>
+                </div> -->
+
+
+            <!-- PAGE CONTENT -->
+            {% block container %}
+                {% block content %}{% endblock content %}
+            {% endblock %}
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        {% render_block "js" %}
+
+        <script src="{% static 'foundation/bower_components/foundation-sites/dist/foundation.min.js' %}"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>

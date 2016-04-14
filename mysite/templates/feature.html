@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block container %}
+
+        <!--Dormant for now.
+        <div class="row">
+            <div class="small-12 columns">
+                {% placeholder content %}
+            </div>
+        </div>
+    </div> -->
+
+     <div class="content-wrapper">
+        <div class="row">
+            <div class="large-7 medium-6 columns candy-fonts " data-equalizer-watch="">
+                <h2 class="align-center"> <br> Welcome to Eye Candy Salon <br> in downtown Reno, NV!</h2>
+                    <a href="https://www.schedulicity.com/scheduling/ECSB76" class="center-alignment my_button">Schedule Now!</a>
+               
+
+
+
+    <footer>
+      {% static_placeholder 'footer' %}
+    </footer>
+{% endblock container %}

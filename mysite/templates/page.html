@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block container %}
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="small-12 columns">
+                {% placeholder content %}
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+      {% static_placeholder 'footer' %}
+    </footer>
+{% endblock container %}
