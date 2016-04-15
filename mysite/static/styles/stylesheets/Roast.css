@@ -252,7 +252,39 @@ li.align-left {
   left: 40%;
 }
 
-/* line 53, ../sass/_home.sass */
+/* line 51, ../sass/_home.sass */
+hr {
+  width: 100%;
+  color: red;
+}
+
+/* line 55, ../sass/_home.sass */
+.border_page {
+  border-top: solid 1px #c86ac7;
+}
+
+/* line 59, ../sass/_home.sass */
+.prices h1 {
+  font-family: Oswald;
+  font-size: 4em;
+  color: white;
+  text-decoration: underline;
+}
+/* line 64, ../sass/_home.sass */
+.prices h2 {
+  font-family: shadows into light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 70, ../sass/_home.sass */
+.prices h3 {
+  color: white;
+  font-family: shadows into light;
+}
+
+/* line 79, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -261,7 +293,7 @@ li.align-left {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 87, ../sass/_home.sass */
+/* line 113, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -273,18 +305,18 @@ li.align-left {
   position: relative;
   left: 150px;
 }
-/* line 98, ../sass/_home.sass */
+/* line 124, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 103, ../sass/_home.sass */
+/* line 129, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 108, ../sass/_home.sass */
+/* line 134, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -294,7 +326,7 @@ li.align-left {
   height: 100px;
   width: 300px;
 }
-/* line 116, ../sass/_home.sass */
+/* line 142, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
