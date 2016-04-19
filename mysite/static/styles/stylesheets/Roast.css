@@ -283,8 +283,29 @@ hr {
   color: white;
   font-family: shadows into light;
 }
+/* line 73, ../sass/_home.sass */
+.prices ul {
+  font-family: shadows into light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 81, ../sass/_home.sass */
+.prices li {
+  color: white;
+  font-family: shadows into light;
+  list-style: none;
+  font-size: 0.7em;
+}
+/* line 87, ../sass/_home.sass */
+.prices p {
+  color: white;
+  font-family: shadows into light;
+  font-size: 0.4em;
+}
 
-/* line 79, ../sass/_home.sass */
+/* line 101, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -293,7 +314,7 @@ hr {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 113, ../sass/_home.sass */
+/* line 135, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -305,18 +326,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 124, ../sass/_home.sass */
+/* line 146, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 129, ../sass/_home.sass */
+/* line 151, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 134, ../sass/_home.sass */
+/* line 156, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -326,7 +347,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 142, ../sass/_home.sass */
+/* line 164, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
