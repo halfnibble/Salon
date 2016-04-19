@@ -197,6 +197,15 @@ li.align-left {
 }
 
 /* line 8, ../sass/_home.sass */
+.video_position {
+  position: relative;
+  top: 10em;
+  right: 20em;
+  clear: both;
+  float: right;
+}
+
+/* line 15, ../sass/_home.sass */
 .candy-fonts {
   font-family: Cabin;
   font-size: 1em;
@@ -204,7 +213,7 @@ li.align-left {
   position: relative;
   left: 20%;
 }
-/* line 14, ../sass/_home.sass */
+/* line 21, ../sass/_home.sass */
 .candy-fonts p {
   position: relative;
   left: 1.5rem;
@@ -212,28 +221,28 @@ li.align-left {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #ADAFB2;
 }
-/* line 20, ../sass/_home.sass */
+/* line 27, ../sass/_home.sass */
 .candy-fonts a {
   color: white;
 }
-/* line 22, ../sass/_home.sass */
+/* line 29, ../sass/_home.sass */
 .candy-fonts a:hover {
   color: #00427A;
 }
-/* line 24, ../sass/_home.sass */
+/* line 31, ../sass/_home.sass */
 .candy-fonts h2 {
   font-size: 3em;
   font-family: Pacifico;
   font-style: italic;
   color: white;
 }
-/* line 29, ../sass/_home.sass */
+/* line 36, ../sass/_home.sass */
 .candy-fonts h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
 }
 
-/* line 33, ../sass/_home.sass */
+/* line 40, ../sass/_home.sass */
 .my_button {
   display: inline-block !important;
   text-align: center;
@@ -252,25 +261,30 @@ li.align-left {
   left: 40%;
 }
 
-/* line 51, ../sass/_home.sass */
+/* line 57, ../sass/_home.sass */
+.top {
+  margin-bottom: 10px;
+}
+
+/* line 61, ../sass/_home.sass */
 hr {
   width: 100%;
   color: red;
 }
 
-/* line 55, ../sass/_home.sass */
+/* line 65, ../sass/_home.sass */
 .border_page {
   border-top: solid 1px #c86ac7;
 }
 
-/* line 59, ../sass/_home.sass */
+/* line 69, ../sass/_home.sass */
 .prices h1 {
   font-family: Oswald;
   font-size: 4em;
   color: white;
   text-decoration: underline;
 }
-/* line 64, ../sass/_home.sass */
+/* line 74, ../sass/_home.sass */
 .prices h2 {
   font-family: shadows into light;
   font-size: 3em;
@@ -278,12 +292,12 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 70, ../sass/_home.sass */
+/* line 80, ../sass/_home.sass */
 .prices h3 {
   color: white;
   font-family: shadows into light;
 }
-/* line 73, ../sass/_home.sass */
+/* line 83, ../sass/_home.sass */
 .prices ul {
   font-family: shadows into light;
   font-size: 3em;
@@ -291,21 +305,21 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 81, ../sass/_home.sass */
+/* line 91, ../sass/_home.sass */
 .prices li {
   color: white;
   font-family: shadows into light;
   list-style: none;
   font-size: 0.7em;
 }
-/* line 87, ../sass/_home.sass */
+/* line 97, ../sass/_home.sass */
 .prices p {
   color: white;
   font-family: shadows into light;
   font-size: 0.4em;
 }
 
-/* line 101, ../sass/_home.sass */
+/* line 111, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -314,7 +328,7 @@ hr {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 135, ../sass/_home.sass */
+/* line 145, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -326,18 +340,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 146, ../sass/_home.sass */
+/* line 156, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 151, ../sass/_home.sass */
+/* line 161, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 156, ../sass/_home.sass */
+/* line 166, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -347,7 +361,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 164, ../sass/_home.sass */
+/* line 174, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
