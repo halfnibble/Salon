@@ -186,26 +186,30 @@ li.align-left {
 }
 
 /* line 1, ../sass/_home.sass */
+.price_position {
+  float: left;
+}
+
+/* line 5, ../sass/_home.sass */
 .content-wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 5, ../sass/_home.sass */
+/* line 9, ../sass/_home.sass */
 .center-alignment {
   margin: 30px;
 }
 
-/* line 8, ../sass/_home.sass */
+/* line 12, ../sass/_home.sass */
 .video_position {
-  position: relative;
-  top: 10em;
-  right: 20em;
+  position: static;
+  margin-right: 15em;
   clear: both;
   float: right;
 }
 
-/* line 15, ../sass/_home.sass */
+/* line 18, ../sass/_home.sass */
 .candy-fonts {
   font-family: Cabin;
   font-size: 1em;
@@ -213,7 +217,7 @@ li.align-left {
   position: relative;
   left: 20%;
 }
-/* line 21, ../sass/_home.sass */
+/* line 24, ../sass/_home.sass */
 .candy-fonts p {
   position: relative;
   left: 1.5rem;
@@ -221,28 +225,28 @@ li.align-left {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #ADAFB2;
 }
-/* line 27, ../sass/_home.sass */
+/* line 30, ../sass/_home.sass */
 .candy-fonts a {
   color: white;
 }
-/* line 29, ../sass/_home.sass */
+/* line 32, ../sass/_home.sass */
 .candy-fonts a:hover {
   color: #00427A;
 }
-/* line 31, ../sass/_home.sass */
+/* line 34, ../sass/_home.sass */
 .candy-fonts h2 {
   font-size: 3em;
   font-family: Pacifico;
   font-style: italic;
   color: white;
 }
-/* line 36, ../sass/_home.sass */
+/* line 39, ../sass/_home.sass */
 .candy-fonts h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
 }
 
-/* line 40, ../sass/_home.sass */
+/* line 43, ../sass/_home.sass */
 .my_button {
   display: inline-block !important;
   text-align: center;
@@ -261,30 +265,30 @@ li.align-left {
   left: 40%;
 }
 
-/* line 57, ../sass/_home.sass */
+/* line 60, ../sass/_home.sass */
 .top {
   margin-bottom: 10px;
 }
 
-/* line 61, ../sass/_home.sass */
+/* line 64, ../sass/_home.sass */
 hr {
   width: 100%;
   color: red;
 }
 
-/* line 65, ../sass/_home.sass */
+/* line 68, ../sass/_home.sass */
 .border_page {
   border-top: solid 1px #c86ac7;
 }
 
-/* line 69, ../sass/_home.sass */
+/* line 72, ../sass/_home.sass */
 .prices h1 {
   font-family: Oswald;
   font-size: 4em;
   color: white;
   text-decoration: underline;
 }
-/* line 74, ../sass/_home.sass */
+/* line 77, ../sass/_home.sass */
 .prices h2 {
   font-family: shadows into light;
   font-size: 3em;
@@ -292,12 +296,12 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 80, ../sass/_home.sass */
+/* line 83, ../sass/_home.sass */
 .prices h3 {
   color: white;
   font-family: shadows into light;
 }
-/* line 83, ../sass/_home.sass */
+/* line 86, ../sass/_home.sass */
 .prices ul {
   font-family: shadows into light;
   font-size: 3em;
@@ -305,21 +309,21 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 91, ../sass/_home.sass */
+/* line 94, ../sass/_home.sass */
 .prices li {
   color: white;
   font-family: shadows into light;
   list-style: none;
   font-size: 0.7em;
 }
-/* line 97, ../sass/_home.sass */
+/* line 100, ../sass/_home.sass */
 .prices p {
   color: white;
   font-family: shadows into light;
   font-size: 0.4em;
 }
 
-/* line 111, ../sass/_home.sass */
+/* line 114, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -328,7 +332,7 @@ hr {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 145, ../sass/_home.sass */
+/* line 148, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -340,18 +344,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 156, ../sass/_home.sass */
+/* line 159, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 161, ../sass/_home.sass */
+/* line 164, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 166, ../sass/_home.sass */
+/* line 169, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -361,7 +365,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 174, ../sass/_home.sass */
+/* line 177, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
