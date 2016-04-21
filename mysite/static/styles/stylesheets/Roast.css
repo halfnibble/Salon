@@ -164,9 +164,11 @@ ul.inline li {
   float: left;
   list-style: none;
   margin-left: 1rem;
+  border: 1px solid pink;
+  background-color: pink;
 }
 
-/* line 15, ../sass/_lists.sass */
+/* line 17, ../sass/_lists.sass */
 ul.plain {
   list-style: none;
   margin-top: 0;
@@ -174,13 +176,13 @@ ul.plain {
   margin-left: -1rem;
   padding: 0;
 }
-/* line 21, ../sass/_lists.sass */
+/* line 23, ../sass/_lists.sass */
 ul.plain li {
   list-style: none;
   margin-left: 1rem;
 }
 
-/* line 25, ../sass/_lists.sass */
+/* line 27, ../sass/_lists.sass */
 li.align-left {
   text-align: left;
 }
@@ -237,14 +239,18 @@ li.align-left {
 }
 
 /* line 41, ../sass/_home.sass */
+.video-top-padded {
+  margin-top: 15px;
+}
+
+/* line 44, ../sass/_home.sass */
 .candy-fonts {
   font-family: Cabin;
   font-size: 1em;
   color: white;
-  position: relative;
-  left: 20%;
+  text-align: center;
 }
-/* line 47, ../sass/_home.sass */
+/* line 49, ../sass/_home.sass */
 .candy-fonts p {
   position: relative;
   left: 1.5rem;
@@ -252,27 +258,27 @@ li.align-left {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #ADAFB2;
 }
-/* line 53, ../sass/_home.sass */
+/* line 55, ../sass/_home.sass */
 .candy-fonts a {
   color: white;
 }
-/* line 55, ../sass/_home.sass */
+/* line 57, ../sass/_home.sass */
 .candy-fonts a:hover {
   color: #00427A;
 }
-/* line 57, ../sass/_home.sass */
+/* line 59, ../sass/_home.sass */
 .candy-fonts h2 {
   font-size: 3em;
   font-family: shadows into light;
   color: white;
 }
-/* line 62, ../sass/_home.sass */
+/* line 64, ../sass/_home.sass */
 .candy-fonts h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
 }
 
-/* line 66, ../sass/_home.sass */
+/* line 68, ../sass/_home.sass */
 .my_button {
   display: inline-block !important;
   text-align: center;
@@ -288,33 +294,34 @@ li.align-left {
   font-size: 0.9rem;
   background-color: #C86AC7;
   position: relative;
-  left: 40%;
 }
 
-/* line 83, ../sass/_home.sass */
+/* line 84, ../sass/_home.sass */
 .top {
   margin-bottom: 10px;
 }
 
-/* line 87, ../sass/_home.sass */
+/* line 88, ../sass/_home.sass */
 hr {
   width: 100%;
   color: red;
 }
 
-/* line 91, ../sass/_home.sass */
+/* line 92, ../sass/_home.sass */
 .border_page {
   border-top: solid 1px #c86ac7;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
-/* line 95, ../sass/_home.sass */
+/* line 98, ../sass/_home.sass */
 .prices h1 {
   font-family: Oswald;
   font-size: 4em;
   color: white;
   text-decoration: underline;
 }
-/* line 100, ../sass/_home.sass */
+/* line 103, ../sass/_home.sass */
 .prices h2 {
   font-family: shadows into light;
   font-size: 3em;
@@ -322,12 +329,12 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 106, ../sass/_home.sass */
+/* line 109, ../sass/_home.sass */
 .prices h3 {
   color: white;
   font-family: shadows into light;
 }
-/* line 109, ../sass/_home.sass */
+/* line 112, ../sass/_home.sass */
 .prices ul {
   font-family: shadows into light;
   font-size: 3em;
@@ -335,21 +342,21 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 117, ../sass/_home.sass */
+/* line 120, ../sass/_home.sass */
 .prices li {
   color: white;
   font-family: shadows into light;
   list-style: none;
   font-size: 0.7em;
 }
-/* line 123, ../sass/_home.sass */
+/* line 126, ../sass/_home.sass */
 .prices p {
   color: white;
   font-family: shadows into light;
   font-size: 0.4em;
 }
 
-/* line 137, ../sass/_home.sass */
+/* line 140, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -358,7 +365,7 @@ hr {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 171, ../sass/_home.sass */
+/* line 174, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -370,18 +377,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 182, ../sass/_home.sass */
+/* line 185, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 187, ../sass/_home.sass */
+/* line 190, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 192, ../sass/_home.sass */
+/* line 195, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -391,7 +398,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 200, ../sass/_home.sass */
+/* line 203, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
