@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block body_class %}bio_page{% endblock %}
+
+{% block content %}
+
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="small-12  columns candy-fonts " data-equalizer-watch="">
+            <br>
+                <h2 class="align-center" style="color:#c86ac7">Bios</h2>
+                  <div class="border_page"> </div>
+
+            <div class="align-left prices"> 
+                <h2> Jessica Abbot</h2>
+                <ul style="font-size:2em">
+                    <li> Owner/hair designer. American board certified haircolorist. Keune certified haircolorist. Keune regional educator. (IG jessicaabbottecs775).</li>
+                    
+                </ul>
+
+                   <h2>Melissa Lazzarini</h2>
+                <ul style="font-size:2em">
+                    <li>Certified Great Lengths and Babe Hair Extension Technician. Hair stylist/colorist. (IG melissa_hairstylist_).</li>
+                    
+                </ul>
+
+                    <h2> Morgan Pintar</h2>
+                <ul style="font-size:2em">
+                    <li> Certified Babe Hair Extension technician. Hair designer/colorist. (IG hairbymorganpintar).</li>
+                    
+                </ul>
+
+                    <h2> Savannah Ray</h2>
+                <ul style="font-size:2em">
+                    <li> Nail Technician. "I love doing nail art. Anything you throw at me I will gladly do. I love what I do and I am honing my art everyday. Can't wait to see you in my chair." (IG galaxy_touch_nails).</li>
+                    
+                </ul>
+
+            
+            
+            
+      
+
+      
+
+ <footer>
+    {% static_placeholder 'footer' %}
+ </footer>
+
+
+{% endblock content %}

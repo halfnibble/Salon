@@ -164,11 +164,17 @@ ul.inline li {
   float: left;
   list-style: none;
   margin-left: 1rem;
-  border: 1px solid pink;
-  background-color: pink;
+  border: 1px solid #c86ac7;
+  background-color: #c86ac7;
+  padding: -5px;
+  width: 100px;
+}
+/* line 18, ../sass/_lists.sass */
+ul.inline a {
+  padding: 0.7rem 0rem !important;
 }
 
-/* line 17, ../sass/_lists.sass */
+/* line 21, ../sass/_lists.sass */
 ul.plain {
   list-style: none;
   margin-top: 0;
@@ -176,13 +182,13 @@ ul.plain {
   margin-left: -1rem;
   padding: 0;
 }
-/* line 23, ../sass/_lists.sass */
+/* line 27, ../sass/_lists.sass */
 ul.plain li {
   list-style: none;
   margin-left: 1rem;
 }
 
-/* line 27, ../sass/_lists.sass */
+/* line 31, ../sass/_lists.sass */
 li.align-left {
   text-align: left;
 }
@@ -213,7 +219,6 @@ li.align-left {
 .pic_position {
   content: url(keune1.png);
   float: right;
-  margin-right: 9em;
 }
 
 /* line 24, ../sass/_home.sass */
@@ -264,7 +269,7 @@ li.align-left {
 }
 /* line 57, ../sass/_home.sass */
 .candy-fonts a:hover {
-  color: #00427A;
+  color: black;
 }
 /* line 59, ../sass/_home.sass */
 .candy-fonts h2 {
@@ -486,7 +491,7 @@ header h1 {
 }
 /* line 40, ../sass/Roast.sass */
 .top-bar ul a:hover {
-  color: #00427a;
+  color: black;
 }
 /* line 43, ../sass/Roast.sass */
 .top-bar a {
@@ -495,6 +500,7 @@ header h1 {
   font-size: 1.65em;
   margin: 0 auto;
   align: center;
+  padding: 0.7rem 0rem;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
@@ -504,39 +510,39 @@ header h1 {
   }
 }
 
-/* line 53, ../sass/Roast.sass */
+/* line 54, ../sass/Roast.sass */
 .top-bar-right {
   position: relative;
   right: 40%;
 }
 
-/* line 63, ../sass/Roast.sass */
+/* line 64, ../sass/Roast.sass */
 .top-bar-left li {
   margin-left: 0px;
   float: left;
 }
 
-/* line 71, ../sass/Roast.sass */
+/* line 72, ../sass/Roast.sass */
 .title-bar {
   background-color: #1e1e1e;
 }
-/* line 73, ../sass/Roast.sass */
+/* line 74, ../sass/Roast.sass */
 .title-bar ul {
   background-color: #1e1e1e;
   color: white;
 }
-/* line 76, ../sass/Roast.sass */
+/* line 77, ../sass/Roast.sass */
 .title-bar ul a:hover {
   color: #00427a;
 }
-/* line 78, ../sass/Roast.sass */
+/* line 79, ../sass/Roast.sass */
 .title-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 1em;
 }
 
-/* line 84, ../sass/Roast.sass */
+/* line 85, ../sass/Roast.sass */
 .menu-text {
   font-family: Oswald, Georgia, Sans Serif;
   text-transform: uppercase;
@@ -545,7 +551,7 @@ header h1 {
   color: #c86ac7;
 }
 @media screen and (max-width: 640px) {
-  /* line 84, ../sass/Roast.sass */
+  /* line 85, ../sass/Roast.sass */
   .menu-text {
     font-size: 1em;
   }
@@ -565,12 +571,12 @@ header h1 {
  *     width: 120px
  *     height: 120px
  *     margin-left: -60px */
-/* line 110, ../sass/Roast.sass */
+/* line 111, ../sass/Roast.sass */
 body {
   background-color: #1e1e1e;
 }
 
-/* line 115, ../sass/Roast.sass */
+/* line 116, ../sass/Roast.sass */
 .image1 {
   background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/wsvwU-fM_1KoVtElBe2Vew/ls.jpg);
   background-repeat: no-repeat;
