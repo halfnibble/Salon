@@ -193,54 +193,36 @@ li.align-left {
   text-align: left;
 }
 
-/* line 1, ../sass/_home.sass */
+@media screen and (min-width: 600px) {
+  /* line 3, ../sass/_home.sass */
+  #product-logos {
+    margin-top: 1.5rem;
+  }
+}
+
+/* line 9, ../sass/_home.sass */
 .price_position {
   float: left;
   margin-left: 9em;
 }
 
-/* line 5, ../sass/_home.sass */
+/* line 13, ../sass/_home.sass */
 .footer_pic {
-  content: url(thermafuse.png);
+  content: url(/static/styles/images/thermafuse.png);
 }
 
-/* line 11, ../sass/_home.sass */
+/* line 19, ../sass/_home.sass */
 .content-wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 15, ../sass/_home.sass */
+/* line 23, ../sass/_home.sass */
 .center-alignment {
   margin: 30px;
 }
 
-/* line 19, ../sass/_home.sass */
-.pic_position {
-  content: url(keune1.png);
-  float: right;
-  position: static;
-  margin-right: 9em;
-  margin-top: 2em;
-}
-
 /* line 27, ../sass/_home.sass */
-.pic_position2 {
-  content: url(thermafuse.png);
-  float: left;
-  position: static;
-  margin-left: 9em;
-  margin-top: 2em;
-}
-
-/* line 36, ../sass/_home.sass */
-.pic_position3 {
-  content: url(keune1.png);
-  float: left;
-  margin-left: 12em;
-}
-
-/* line 42, ../sass/_home.sass */
 .video_position {
   position: static;
   margin-right: 0em;
@@ -248,19 +230,19 @@ li.align-left {
   float: right;
 }
 
-/* line 48, ../sass/_home.sass */
+/* line 33, ../sass/_home.sass */
 .video-top-padded {
   margin-top: 15px;
 }
 
-/* line 51, ../sass/_home.sass */
+/* line 36, ../sass/_home.sass */
 .candy-fonts {
   font-family: Cabin;
   font-size: 1em;
   color: white;
   text-align: center;
 }
-/* line 56, ../sass/_home.sass */
+/* line 41, ../sass/_home.sass */
 .candy-fonts p {
   position: relative;
   left: 1.5rem;
@@ -268,27 +250,27 @@ li.align-left {
   font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
   color: #ADAFB2;
 }
-/* line 62, ../sass/_home.sass */
+/* line 47, ../sass/_home.sass */
 .candy-fonts a {
   color: white;
 }
-/* line 64, ../sass/_home.sass */
+/* line 49, ../sass/_home.sass */
 .candy-fonts a:hover {
   color: black;
 }
-/* line 66, ../sass/_home.sass */
+/* line 51, ../sass/_home.sass */
 .candy-fonts h2 {
   font-size: 3em;
   font-family: shadows into light;
   color: white;
 }
-/* line 71, ../sass/_home.sass */
+/* line 56, ../sass/_home.sass */
 .candy-fonts h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
 }
 
-/* line 75, ../sass/_home.sass */
+/* line 60, ../sass/_home.sass */
 .my_button {
   display: inline-block !important;
   text-align: center;
@@ -306,32 +288,32 @@ li.align-left {
   position: relative;
 }
 
-/* line 91, ../sass/_home.sass */
+/* line 76, ../sass/_home.sass */
 .top {
   margin-bottom: 10px;
 }
 
-/* line 95, ../sass/_home.sass */
+/* line 80, ../sass/_home.sass */
 hr {
   width: 100%;
   color: red;
 }
 
-/* line 99, ../sass/_home.sass */
+/* line 84, ../sass/_home.sass */
 .border_page {
   border-top: solid 1px #c86ac7;
   margin-top: 15px;
   margin-bottom: 30px;
 }
 
-/* line 105, ../sass/_home.sass */
+/* line 90, ../sass/_home.sass */
 .prices h1 {
   font-family: Oswald;
   font-size: 4em;
   color: white;
   text-decoration: underline;
 }
-/* line 110, ../sass/_home.sass */
+/* line 95, ../sass/_home.sass */
 .prices h2 {
   font-family: shadows into light;
   font-size: 3em;
@@ -339,12 +321,12 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 116, ../sass/_home.sass */
+/* line 101, ../sass/_home.sass */
 .prices h3 {
   color: white;
   font-family: shadows into light;
 }
-/* line 119, ../sass/_home.sass */
+/* line 104, ../sass/_home.sass */
 .prices ul {
   font-family: shadows into light;
   font-size: 3em;
@@ -352,21 +334,21 @@ hr {
   font-style: italic;
   color: #c86ac7;
 }
-/* line 127, ../sass/_home.sass */
+/* line 112, ../sass/_home.sass */
 .prices li {
   color: white;
   font-family: shadows into light;
   list-style: none;
   font-size: 0.7em;
 }
-/* line 133, ../sass/_home.sass */
+/* line 118, ../sass/_home.sass */
 .prices p {
   color: white;
   font-family: shadows into light;
   font-size: 0.4em;
 }
 
-/* line 147, ../sass/_home.sass */
+/* line 132, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -375,7 +357,7 @@ hr {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 181, ../sass/_home.sass */
+/* line 166, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -387,18 +369,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 192, ../sass/_home.sass */
+/* line 177, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 197, ../sass/_home.sass */
+/* line 182, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 202, ../sass/_home.sass */
+/* line 187, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -408,7 +390,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 210, ../sass/_home.sass */
+/* line 195, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;

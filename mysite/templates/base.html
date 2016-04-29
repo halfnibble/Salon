@@ -14,10 +14,7 @@
         <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
         <link rel="stylesheet" type="text/css" href="/static/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="/static/slick/slick-theme.css"/>
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
-        <!-- Add the slick-theme.css if you want default styling -->
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
-                
+
         {% render_block "css" %}
     </head>
 
@@ -31,8 +28,15 @@
                 <div class="title-bar-title" >Eye Candy Salon </div>
             </div>
 
-            <header class="menu-text align-center">
-            EYE CANDY SALON
+            <p></p>
+
+            <header class="align-center row">
+                <div class="medium-6 columns">
+                    <img src="{% static 'styles/images/eyecandy-logo.svg' %}" alt="EYE CANDY SALON">
+                </div>
+                <div class="medium-6 columns">
+                    <img src="{% static 'styles/images/product-logos-v2.jpg' %}" id="product-logos" alt="Product Logos">
+                </div>
             </header>
 
             <div class="top-bar" id="main-menu">
@@ -44,42 +48,6 @@
                 </div>
             </div>
 
-
-
-
-
-      <!-- LEFT side -->
-
-                <!--NOT NEEDED RIGHT NOW.
-
-                <div class="top-bar-left hide-for-small-only">
-
-                    <ul class="dropdown menu" data-dropdown-menu>
-                        <li class="menu-text"> </li>
-                    </ul>
-
-                -->
-
-
-               <!-- RIGHT side -->
-
-               <!-- NOT NEEDED RIGHT NOW. -->
-                          <!-- Social Media Icons -->
-
-                    <!-- NOT NEEDED YET
-
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/SilverStateCoffeeCo/">
-                            <div class="webicon facebook"></div>
-                        </a>
-
-                        <a href="mailto:SilverStateCoffeeCo@icloud.com">
-                            <div class="webicon mail"></div>
-                        </a>
-                    </div>
-                </div> -->
-
-
             <!-- PAGE CONTENT -->
             {% block container %}
                 {% block content %}{% endblock content %}
@@ -87,79 +55,22 @@
 
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
         {% render_block "js" %}
 
         <script src="{% static 'foundation/bower_components/foundation-sites/dist/foundation.min.js' %}"></script>
-        <script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="{% static 'slick/slick.min.js' %} "></script>
+
+        {% block extra_scripts %}
+            <!-- Load page scripts after libraries are loaded. -->
+        {% endblock %}
+
+
+        <script type="text/javascript">
+            // Setup Foundation 6 features.
             $(document).foundation();
         </script>
-
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-
-          <script type="text/javascript">
-            $(document).ready(function(){
-            $('.pic_position').slick({
-            setting-name: setting-value
-            });
-            });
-          </script>
-
-          <script>
-$(document).foundation();
-
-// SLick Slider Code
- var $windowWidth=$(window).width();
-
-$( window ).resize(function() {
-var $windowWidth=$(window).width();
-if(($windowWidth > 1) && ($windowWidth < 640)){
-$('.slick-multislider').unslick();  
-      $('.slick-multislider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-      
-    } else {
-$('.slick-multislider').unslick();      
-        $('.slick-multislider').slick({
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-    }   
-
-});  
-
-if(($windowWidth > 1) && ($windowWidth < 640)){
-
-      $('.slick-multislider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-      
-    } else {
-        $('.slick-multislider').slick({
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-    }
-</script>
-
-
     </body>
 </html>

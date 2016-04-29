@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load cms_tags %}
+{% load cms_tags staticfiles %}
 
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
@@ -9,6 +9,15 @@
 
     <div class="row">
         <div class="large-8 large-offset-2 columns">
+
+
+    <!-- Please do the following:
+        1. Fix all tabbing.
+        2. Remove Silver State Code.
+        3. Adjust the class columns (from large-4 to large-12) to make one image per slide.
+        4. Put some dummy images in there, to test (try to use `static`)
+        5. Get the settings below how you want them.
+    -->
 <div class="row text-center slick-multislider">
         <div class="large-4 small-12 columns">
           <img src="http://placehold.it/700x300" alt="">
@@ -48,57 +57,6 @@
         </div>
       </div>
 
-<script>$(document).foundation();
-
-// SLick Slider Code
- var $windowWidth=$(window).width();
-
-$( window ).resize(function() {
-var $windowWidth=$(window).width();
-if(($windowWidth > 1) && ($windowWidth < 640)){
-$('.slick-multislider').unslick();  
-      $('.slick-multislider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-      
-    } else {
-$('.slick-multislider').unslick();      
-        $('.slick-multislider').slick({
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-    }   
-
-});  
-
-if(($windowWidth > 1) && ($windowWidth < 640)){
-
-      $('.slick-multislider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-      
-    } else {
-        $('.slick-multislider').slick({
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-        });
-    }
-</script>
-
             <div class="gallery_positon" data-equalizer data-equalize-on="medium">
                 <div class="row medium-up-5">
                     <!-- Example image with popup -->
@@ -106,7 +64,7 @@ if(($windowWidth > 1) && ($windowWidth < 640)){
                         <a data-open="gallery-image-1">
                             <img class="gallery_border" data-equalizer-watch src="http://blog.sqwiggle.com/content/images/2014/01/11-Unwritten-Rules-of-Coffee-Shop-Roberto_Ventre-e1391150672343.jpg">
                         </a>
-                       
+
                         <div class="reveal" id="gallery-image-1" data-reveal>
                             <img src="http://blog.sqwiggle.com/content/images/2014/01/11-Unwritten-Rules-of-Coffee-Shop-Roberto_Ventre-e1391150672343.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -124,8 +82,8 @@ if(($windowWidth > 1) && ($windowWidth < 640)){
                             <img src="http://jozoara.com/wp-content/uploads/2012/08/jozoara-cofee-shop.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
-                            </button> 
-                        </div>           
+                            </button>
+                        </div>
                     </div>
 
 
@@ -133,37 +91,37 @@ if(($windowWidth > 1) && ($windowWidth < 640)){
                     <div class="column" style="inline-block">
                          <a data-open="gallery-image-3">
                             <img class="gallery_border" data-equalizer-watch src="http://www.baristacoffees.com/wp-content/uploads/2015/09/coffee-shop.jpg">
-                         </a> 
+                         </a>
                          <div class="reveal" id="gallery-image-3" data-reveal>
                             <img src="http://www.baristacoffees.com/wp-content/uploads/2015/09/coffee-shop.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                         </div>           
+                         </div>
                     </div>
 
                     <div class="column" style="inline-block">
                          <a data-open="gallery-image-4">
                             <img class="gallery_border" data-equalizer-watch src= "https://assets3.thrillist.com/v1/image/1411625/size/tl-horizontal_main/the-12-best-new-craft-coffee-shops-in-los-angeles">
-                         </a> 
+                         </a>
                          <div class="reveal" id="gallery-image-4" data-reveal>
                             <img src= "https://assets3.thrillist.com/v1/image/1411625/size/tl-horizontal_main/the-12-best-new-craft-coffee-shops-in-los-angeles">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                         </div>           
+                         </div>
                     </div>
-                    
+
                     <div class="column" style="inline-block">
                          <a data-open="gallery-image-5">
                             <img class="gallery_border" data-equalizer-watch src="http://i.kinja-img.com/gawker-media/image/upload/s--BJMiU7wp--/17oyrpb04wtc5jpg.jpg">
-                         </a> 
+                         </a>
                          <div class="reveal" id="gallery-image-5" data-reveal>
                             <img src="http://i.kinja-img.com/gawker-media/image/upload/s--BJMiU7wp--/17oyrpb04wtc5jpg.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                         </div>           
+                         </div>
                     </div>
                 </div>
 
@@ -173,20 +131,20 @@ if(($windowWidth > 1) && ($windowWidth < 640)){
                         <a data-open="gallery-image-6">
                             <img class="gallery_border" data-equalizer-watch src="http://scoutology.com/wp-content/uploads/2015/02/beyu-800x533.jpg">
                         </a>
-                       
+
                         <div class="reveal" id="gallery-image-6" data-reveal>
                             <img src="http://scoutology.com/wp-content/uploads/2015/02/beyu-800x533.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                    </div> 
+                    </div>
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-7">
                             <img class="gallery_border" data-equalizer-watch src= "http://9bytz.com/wp-content/uploads/2011/10/Coffee-Shop-13.jpg">
                         </a>
-                       
+
                         <div class="reveal" id="gallery-image-7" data-reveal>
                             <img src="http://9bytz.com/wp-content/uploads/2011/10/Coffee-Shop-13.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -199,42 +157,42 @@ if(($windowWidth > 1) && ($windowWidth < 640)){
                         <a data-open="gallery-image-8">
                             <img class="gallery_border" data-equalizer-watch src= "http://www.brewed-coffee.com/wp-content/uploads/2008/10/explorations-cafe-maasdam.jpg">
                         </a>
-                       
+
                         <div class="reveal" id="gallery-image-8" data-reveal>
                             <img src= "http://www.brewed-coffee.com/wp-content/uploads/2008/10/explorations-cafe-maasdam.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                    </div> 
+                    </div>
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-9">
                             <img class="gallery_border" data-equalizer-watch src="https://s-media-cache-ak0.pinimg.com/736x/47/87/38/4787389e3d0cb9dfa7529b5ff14c3eeb.jpg">
                         </a>
-                       
+
                         <div class="reveal" id="gallery-image-9" data-reveal>
                             <img src="https://s-media-cache-ak0.pinimg.com/736x/47/87/38/4787389e3d0cb9dfa7529b5ff14c3eeb.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                    </div>  
+                    </div>
 
                    <div class="column" style="inline-block">
                         <a data-open="gallery-image-10">
                             <img class="gallery_border" data-equalizer-watch src="http://216.243.142.162/storyart/coffee_shop_design-sized.jpg">
                         </a>
-                       
+
                         <div class="reveal" id="gallery-image-10" data-reveal>
                             <img src="http://216.243.142.162/storyart/coffee_shop_design-sized.jpg">
                             <button class="close-button" data-close aria-label="Close modal" type="button">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                    </div>       
+                    </div>
 
-               
+
             </div>
         </div>
     </div>
@@ -243,3 +201,53 @@ if(($windowWidth > 1) && ($windowWidth < 640)){
         {% static_placeholder 'footer' %}
     </footer>
 {% endblock content %}
+
+{% block extra_scripts %}
+    <script type="text/javascript">
+
+        // Window Reize code.
+        var $windowWidth=$(window).width();
+        $( window ).resize(function() {
+            var $windowWidth=$(window).width();
+            if (($windowWidth > 1) && ($windowWidth < 640)) {
+                $('.slick-multislider').unslick();
+                $('.slick-multislider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    dots: true,
+                });
+            } else {
+                $('.slick-multislider').unslick();
+                $('.slick-multislider').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    dots: true,
+                });
+            }
+        });
+
+        // Initial run.
+        if (($windowWidth > 1) && ($windowWidth < 640)) {
+            $('.slick-multislider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+            });
+        } else {
+            $('.slick-multislider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+            });
+        }
+    </script>
+
+{% endblock %}
