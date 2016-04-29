@@ -1,5 +1,6 @@
 
 mysite/static/node_modules/*
+mysite/static/bower_components/*
 
 media/*
 
