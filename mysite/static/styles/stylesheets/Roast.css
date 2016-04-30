@@ -348,7 +348,47 @@ hr {
   font-size: 0.4em;
 }
 
-/* line 132, ../sass/_home.sass */
+/* line 125, ../sass/_home.sass */
+.artists h1 {
+  font-family: Oswald;
+  font-size: 4em;
+  color: white;
+  text-decoration: underline;
+}
+/* line 130, ../sass/_home.sass */
+.artists h2 {
+  font-family: shadows into light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 137, ../sass/_home.sass */
+.artists ul {
+  font-family: shadows into light;
+  font-size: 3em;
+  text-decoration: bold;
+  color: white;
+}
+/* line 144, ../sass/_home.sass */
+.artists li {
+  color: white;
+  font-family: shadows into light;
+  list-style: none;
+  font-size: 0.7em;
+}
+/* line 150, ../sass/_home.sass */
+.artists p {
+  color: white;
+  font-family: shadows into light;
+  font-size: 0.4em;
+}
+/* line 155, ../sass/_home.sass */
+.artists a:hover {
+  color: #c86ac7;
+}
+
+/* line 167, ../sass/_home.sass */
 .social-icons {
   position: relative;
   bottom: 2.5rem;
@@ -357,7 +397,7 @@ hr {
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 166, ../sass/_home.sass */
+/* line 201, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -369,18 +409,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 177, ../sass/_home.sass */
+/* line 212, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 182, ../sass/_home.sass */
+/* line 217, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 187, ../sass/_home.sass */
+/* line 222, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -390,7 +430,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 195, ../sass/_home.sass */
+/* line 230, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;

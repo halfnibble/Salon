@@ -188,7 +188,8 @@ CMS_TEMPLATES = (
     ('feature.html', 'Page with Feature'),
     ('menu_page.html', "Menu Page"),
     ('gallery.html', "Gallery Page"),
-    ('bio.html', "Bio Page")
+    ('bio.html', "Bio Page"),
+    ('contact.html', "Contact Page")
 )
 
 CMS_PERMISSION = True

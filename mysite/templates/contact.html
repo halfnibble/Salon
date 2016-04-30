@@ -1,0 +1,47 @@
+
+{% extends "base.html" %}
+{% load cms_tags staticfiles %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block body_class %}menu_page{% endblock %}
+
+{% block content %}
+    
+
+    <div class="row">
+
+      <!-- THE ARTIST DIV IS PUSHING DOWN THE MESSAGE. MUST FIND A WAY TO HAVE ARTIST LINKS EITHER SLIGHTLY ABOVE, OR SLIGHTLY BELOW
+      CONTACT FORM MESSAGE.-->
+
+
+      <div class="small-8 small-offset-2 candy-fonts  columns">
+
+      <!--Artists which have contributed to our salon walls and which we are greatly thankful for: -->
+      <div class="small-offset-11 artists columns">
+        <ul> <span style="color:#c86ac7">Artists</span> which have <br> contributed to our <br> salon:
+          <li><a href="http://www.abcartattack.com/">Bryce Chisholm</a></li>
+          <li><a href="http://www.tonyperezphotographs.etsy.com">Tony Perez</a></li>
+          <li><a href="http://www.potentialistworkshop.com">Pan Pantoja</a></li>
+          <li><a href="http://Joecrockart.com">Joseph Corgile</a></li>
+          <li><a href="http://rebeccareneephoto.wix.com/rrphoto">Becca Ewart</a></li>
+          <li><a href="http://www.rawartists.org/jasonclark">Jason Clark</a></li>
+
+      </div>
+
+      <h2 class="align-center" style="font-style:italic"> With more than 30 years of experience, we have mastered
+            the art of beauty and color. Book an appointment and turn heads... be Eye Candy. 
+      </h2>
+
+      <br>
+
+      <h2 style="color:#c86ac7"> Please contact us using the form below:</h2>
+
+
+
+           
+    <footer>
+        {% static_placeholder 'footer' %}
+    </footer>
+{% endblock content %}
+
