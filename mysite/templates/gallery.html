@@ -7,13 +7,14 @@
 {% block body_class %}menu_page{% endblock %}
 
 {% block content %}
+    <!-- SOME OF THE DUMMY IMAGES WIDTH AND HEIGHT ARE OUT OF PLACE WITH THE SLIDER. I FOUND THE IDEAL HEIGHT\WIDTH TO BE AROUND 900X500. -->
 
     <div class="row">
       <div class="large-10 large-offset-2 columns">
     <br>
     <br>
-          <div class="row  large-12 text-center slick-multislider">
-            <div class="large-12  columns" >
+        <div class="row  large-12 text-center slick-multislider">
+          <div class="large-12  columns" >
               <img src="http://www.saddletude.com/wp-content/uploads/2015/09/1_how-to-have-nice-hair.jpg"   alt="">
           </div>
 
@@ -22,6 +23,7 @@
             <div class="title-blue-line-content"></div>
           </div>
 
+          <!-- THIS ONE IN PARTICULAR IS THE BEST FITTING HEIGHT\WIDTH IMAGE FOR THE GALLERY -->
           <div class="large-12 small-12 columns">
             <img src="http://www.radioone.world/wp-content/uploads/2016/02/women-long-hairstyle-ideas-nice-long-hairstyles-as-beautiful-hair-for-lnuot7cqlclgqbtj.jpg" alt="">
             <div class="title-blue-line-content"></div>
@@ -50,6 +52,10 @@
 {% endblock content %}
 
 {% block extra_scripts %}
+
+    <!-- CHANGED THE 'SLIDES TO SHOW' TO 1, SO THAT ONLY ONE IMAGE WOULD APPEAR.-->  
+    <!-- AUTO PLAY IS FUNCTIONING. -->
+
     <script type="text/javascript">
         // Window Reize code.
         var $windowWidth=$(window).width();
