@@ -22,6 +22,7 @@
 
         {% cms_toolbar %}
         <div class="container">
+
             <!-- NAVIGATION -->
             <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
                 <button class="menu-icon my_button" type="button" data-toggle></button>
@@ -32,16 +33,34 @@
 
             <header class="align-center row">
                 <div class="medium-6 columns">
-                    <img src="{% static 'styles/images/eyecandy-logo.svg' %}" alt="EYE CANDY SALON">
+
+                    <a href="/"><img src="{% static 'styles/images/eyecandy-logo.svg' %}" alt="EYE CANDY SALON"></a>
                 </div>
                 <div class="medium-6 columns">
+
                     <img src="{% static 'styles/images/product-logos-v2.jpg' %}" id="product-logos" alt="Product Logos">
                 </div>
             </header>
+                <div class="social-icons">
+
+                <a href="https://www.facebook.com/eyecandysalonreno/">
+                  <div class="svg webicon facebook"></div>
+                </a>
+                <a href="">
+                  <div class="svg webicon twitter"></div>
+                </a>
+                  </div>
+              </div>      
+                 
+
+        
 
             <div class="top-bar" id="main-menu">
+
+
                 <div class="align-center">
                     <ul class="dropdown menu inline" data-dropdown-menu>
+
                         <!--dynamically generates the menu -->
                         {% show_menu 0 1 100 100 "menu.html" %}
                     </ul>

@@ -388,16 +388,15 @@ hr {
   color: #c86ac7;
 }
 
-/* line 167, ../sass/_home.sass */
+/* line 168, ../sass/_home.sass */
 .social-icons {
-  position: relative;
-  bottom: 2.5rem;
-  left: 20rem;
-  height: 2em;
+  margin-top: -3%;
+  margin-left: 75%;
+  position: absolute;
 }
 
 /*  <!--NOT IN USE!!--> */
-/* line 201, ../sass/_home.sass */
+/* line 198, ../sass/_home.sass */
 .content-right {
   width: 100%;
   float: right;
@@ -409,18 +408,18 @@ hr {
   position: relative;
   left: 150px;
 }
-/* line 212, ../sass/_home.sass */
+/* line 209, ../sass/_home.sass */
 .content-right p {
   font-family: Blooming Grove;
   color: white;
   font-size: 30px;
 }
-/* line 217, ../sass/_home.sass */
+/* line 214, ../sass/_home.sass */
 .content-right p:nth-child(3) {
   font-size: 12px;
 }
 
-/* line 222, ../sass/_home.sass */
+/* line 219, ../sass/_home.sass */
 .left-bar {
   width: 30%;
   float: left;
@@ -430,7 +429,7 @@ hr {
   height: 100px;
   width: 300px;
 }
-/* line 230, ../sass/_home.sass */
+/* line 227, ../sass/_home.sass */
 .left-bar p {
   font-family: Cabin;
   color: white;
