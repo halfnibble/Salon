@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% load cms_tags staticfiles %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block container %}
+
+<!-- GIVING SERVICES ITS OWN PAGE -->
+
+<br>
+<br>
+<h1 class="align-center" style=" font-family: Oswald;font-size: 4em;color: white;text-decoration: none">Our Services</h1>
+<br>
+
+
+<div class="row">
+
+
+            <!-- Left column. Shows at top for small screens. -->
+            <div class="large-7 medium-6 columns prices">
+                <ul> Cuts
+                    <li>Women................$40+</li>
+                    <li>Women's Haircut w/ Express Amino Fusion Treatment................$60</li>
+                    <li>Men................$20</li>
+                    <li>Children................$15</li>
+                </ul>
+          
+                <ul>Styling
+                    <li>Shampoo & Blow-dry................25.00+</li>
+                    <li>UpDo................55.00+</li>
+                    <li>Make-up................Consultation Required</li>
+                    <li>Lip, Eyebrow, Chin................15.00</li>
+                    <li>Full Face................30.00</li>
+                </ul>
+
+                <ul> Extensions
+                    <li>Babe Extensions................Consultation Required</li>
+                    <li>Great Length Extensions................Consultation Required</li>
+                    <li>She by So.Cap.Usa Extensions................Consultation Required</li>
+                  
+                </ul>
+
+           
+
+            </div>
+
+            <!-- Right column. Shows at bottom for small screens. -->
+            <div class="large-5 medium-6 columns prices" data-equalizer-watch="">
+     
+                <ul>Chemical 
+                    <li>All over color...............$100+</li>
+                    <li>Color Touch Up................80.00+</li>
+                    <li>Color Man w/ Men's Haircut................65.00+</li>
+                    <li>Color with Highlight................150.00+</li>
+                    <li>Full Highlight................150.00+</li>
+                    <li> Partial Highlight................120.00+</li>
+                    <li>Accent Highlight (Face Framing)................65.00+</li>
+                    <li>Balayage Color................130.00+</li>
+                    <li>Ombre Color................130.00+</li>
+                    <li>Express Amino Fusion Color Lock................25.00</li>
+                    <li>Permanent Wave................120.00+</li>
+                    <li>Amino Fusion Smoothing Treatment................300.00</li>
+                </ul>
+
+
+
+
+            </div>   
+
+               <p class="align-center" style="font-style:shadows into light; font-size:1em; color:white"> *All prices are a base price and subject to change.</p> 
+
+
+
+
+
+
+
+
+     <footer>
+
+
+
+      {% static_placeholder 'footer' %}
+    </footer>
+{% endblock container %}
