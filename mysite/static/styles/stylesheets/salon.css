@@ -468,47 +468,30 @@ hr {
 }
 
 /* line 1, ../sass/_gallery.sass */
-.gallery_border {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
-  box-sizing: border-box;
-  color: #222222;
-  border: 2px solid pink;
-  margin-bottom: 20px;
-  min-height: 100px;
-}
-
-/* line 9, ../sass/_gallery.sass */
-.gallery_positon {
-  margin-top: 8em;
-}
-
-/* line 12, ../sass/_gallery.sass */
-.reveal {
-  padding: 0;
-}
-/* line 14, ../sass/_gallery.sass */
-.reveal img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* line 18, ../sass/_gallery.sass */
-img {
-  min-height: 100%;
+img.slider-image-content {
+  height: 480px;
   width: auto;
+  margin: 0 auto;
 }
 
-/* line 12, ../sass/Roast.sass */
+/* line 6, ../sass/_gallery.sass */
+.slider-text-content {
+  color: #00A6BC;
+  margin-top: 0.25rem;
+  font-size: 1.3rem;
+}
+
+/* line 12, ../sass/salon.sass */
 .webicon:hover {
   margin: 0 0 5px !important;
 }
 
-/* line 15, ../sass/Roast.sass */
+/* line 15, ../sass/salon.sass */
 h1 {
   font-style: Oswald, Georgia, Sans Serif !important;
 }
 
-/* line 21, ../sass/Roast.sass */
+/* line 21, ../sass/salon.sass */
 header h1 {
   font-style: Oswald, Georgia, Sans Serif;
   color: #d32dd3;
@@ -520,22 +503,22 @@ header h1 {
   padding: 0.7rem 1rem;
 }
 
-/* line 32, ../sass/Roast.sass */
+/* line 32, ../sass/salon.sass */
 .top-bar {
   background-color: #1e1e1e;
   height: 64px;
 }
-/* line 37, ../sass/Roast.sass */
+/* line 37, ../sass/salon.sass */
 .top-bar ul {
   background-color: #1e1e1e;
   align: center;
   margin: 0 auto;
 }
-/* line 40, ../sass/Roast.sass */
+/* line 40, ../sass/salon.sass */
 .top-bar ul a:hover {
   color: black;
 }
-/* line 43, ../sass/Roast.sass */
+/* line 43, ../sass/salon.sass */
 .top-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
@@ -546,45 +529,45 @@ header h1 {
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 43, ../sass/Roast.sass */
+  /* line 43, ../sass/salon.sass */
   .top-bar a {
     font-size: 1em;
   }
 }
 
-/* line 54, ../sass/Roast.sass */
+/* line 54, ../sass/salon.sass */
 .top-bar-right {
   position: relative;
   right: 40%;
 }
 
-/* line 64, ../sass/Roast.sass */
+/* line 64, ../sass/salon.sass */
 .top-bar-left li {
   margin-left: 0px;
   float: left;
 }
 
-/* line 72, ../sass/Roast.sass */
+/* line 72, ../sass/salon.sass */
 .title-bar {
   background-color: #1e1e1e;
 }
-/* line 74, ../sass/Roast.sass */
+/* line 74, ../sass/salon.sass */
 .title-bar ul {
   background-color: #1e1e1e;
   color: white;
 }
-/* line 77, ../sass/Roast.sass */
+/* line 77, ../sass/salon.sass */
 .title-bar ul a:hover {
   color: #00427a;
 }
-/* line 79, ../sass/Roast.sass */
+/* line 79, ../sass/salon.sass */
 .title-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 1em;
 }
 
-/* line 85, ../sass/Roast.sass */
+/* line 85, ../sass/salon.sass */
 .menu-text {
   font-family: Oswald, Georgia, Sans Serif;
   text-transform: uppercase;
@@ -593,7 +576,7 @@ header h1 {
   color: #c86ac7;
 }
 @media screen and (max-width: 640px) {
-  /* line 85, ../sass/Roast.sass */
+  /* line 85, ../sass/salon.sass */
   .menu-text {
     font-size: 1em;
   }
@@ -613,12 +596,12 @@ header h1 {
  *     width: 120px
  *     height: 120px
  *     margin-left: -60px */
-/* line 111, ../sass/Roast.sass */
+/* line 111, ../sass/salon.sass */
 body {
   background-color: #1e1e1e;
 }
 
-/* line 116, ../sass/Roast.sass */
+/* line 116, ../sass/salon.sass */
 .image1 {
   background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/wsvwU-fM_1KoVtElBe2Vew/ls.jpg);
   background-repeat: no-repeat;
