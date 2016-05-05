@@ -147,6 +147,7 @@ INSTALLED_APPS = (
     'djangocms_googlemap',
     'djangocms_inherit',
     'djangocms_link',
+    'cmsplugin_contact_plus',
     'reversion',
     'mysite'
 )
@@ -185,7 +186,7 @@ CMS_LANGUAGES = {
 CMS_TEMPLATES = (
     ## Customize this
     ('page.html', 'Page'),
-    ('feature.html', 'Page with Feature'), 
+    ('feature.html', 'Page with Feature'),
     ('gallery.html', "Gallery Page"),
     ('bio.html', "Bio Page"),
     ('contact.html', "Contact Page"),

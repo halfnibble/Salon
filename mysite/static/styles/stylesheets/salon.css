@@ -1,154 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700);
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-/* line 2, ../sass/_menu.sass */
-.menu-wrapper {
-  background-color: rgba(10, 10, 10, 0.8);
-}
-
-/* line 6, ../sass/_menu.sass */
-.menu-title-container {
-  border-bottom: 1px solid #00427A;
-}
-@media only screen and (max-width: 40em) {
-  /* line 6, ../sass/_menu.sass */
-  .menu-title-container {
-    height: 0 !important;
-    padding: 0 !important;
-  }
-}
-
-/* line 13, ../sass/_menu.sass */
-.menu-title {
-  margin: 0;
-  line-height: 90%;
-}
-
-/* line 17, ../sass/_menu.sass */
-section {
-  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #FFFFFF;
-  width: 100%;
-  padding: 1.5em !important;
-}
-/* line 22, ../sass/_menu.sass */
-section.menu-items {
+@import url("https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+/* line 10, ../sass/_fonts.sass */
+.candy-fonts {
+  font-family: Cabin;
+  font-size: 1em;
+  color: white;
   text-align: center;
+}
+/* line 15, ../sass/_fonts.sass */
+.candy-fonts p {
+  position: relative;
+  left: 1.5rem;
+  font-size: 1.5rem;
+  font-family: Cantarell, Cabin, Sans Serif;
   color: #ADAFB2;
 }
-/* line 25, ../sass/_menu.sass */
-section.menu-items li {
-  font-size: 1.1rem;
+/* line 21, ../sass/_fonts.sass */
+.candy-fonts a {
+  color: white;
 }
-/* line 27, ../sass/_menu.sass */
-section.border-right {
-  border-right: 1px solid #00427A;
+/* line 23, ../sass/_fonts.sass */
+.candy-fonts a:hover {
+  color: black;
 }
-/* line 29, ../sass/_menu.sass */
-section h1, section h2, section h3, section h4, section h5 {
+/* line 25, ../sass/_fonts.sass */
+.candy-fonts h2 {
+  font-size: 3em;
+  font-family: Shadows Into Light;
+  color: white;
+}
+/* line 30, ../sass/_fonts.sass */
+.candy-fonts h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
-  text-align: center;
-  margin-bottom: 0.2em;
-}
-/* line 34, ../sass/_menu.sass */
-section h4 {
-  font-size: 1.3rem;
-}
-/* line 36, ../sass/_menu.sass */
-section h3 {
-  font-size: 1.4rem;
-  text-align: left;
-}
-/* line 39, ../sass/_menu.sass */
-section p {
-  text-align: left;
-  color: #ADAFB2;
-  font-style: italic;
-}
-/* line 43, ../sass/_menu.sass */
-section p:nth-child(even) {
-  font-style: normal;
 }
 
-/* line 52, ../sass/_menu.sass */
-.small-12 p {
-  font-size: 1.4rem;
-  font-style: normal;
-}
-
-/* */
-/* line 68, ../sass/_menu.sass */
-.content-wrapper-menu {
-  width: 70%;
-  margin: 0 auto;
-}
-
-/* line 72, ../sass/_menu.sass */
-.left-item {
-  font-family: Georgia;
-  color: #ADAFB2;
-  font-size: 28px;
-  background: none;
-  background-color: none;
-}
-
-/* line 79, ../sass/_menu.sass */
-.menu-border-left {
-  border-left: 1px solid #00427A;
-  height: 745px;
-  position: relative;
-  top: -60px;
-}
-
-/* line 85, ../sass/_menu.sass */
-.menu-border-left2 {
-  border-left: 1px solid #00427A;
-  height: 800px;
-  position: relative;
-  top: -120px;
-  left: 0px;
-  clear: both;
-}
-
-/* line 93, ../sass/_menu.sass */
-.menu-font {
-  color: white;
-  font-size: 50px;
-  font-family: Cabin;
-  position: relative;
-  bottom: 590px;
-}
-
-/* line 100, ../sass/_menu.sass */
-.menu-left {
-  width: 33%;
-  float: left;
-  padding: 10px;
-  font-family: Cabin;
-  font-size: 56px;
-  color: white;
-  background: none;
-  background-color: none;
-  position: relative;
-  top: -690px;
-}
-
-/* line 112, ../sass/_menu.sass */
-.menu-center {
-  width: 33%;
-  float: right;
-  padding: 10px;
-  font-family: Cabin;
-  font-size: 56px;
-  color: white;
-  background: none;
-  background-color: none;
-  position: relative;
-  top: -690px;
-}
-
-/* */
 /* line 2, ../sass/_lists.sass */
 ul.inline {
   display: inline-block;
@@ -193,85 +80,8 @@ li.align-left {
   text-align: left;
 }
 
-@media screen and (min-width: 600px) {
-  /* line 3, ../sass/_home.sass */
-  #product-logos {
-    margin-top: 1.5rem;
-  }
-}
-
-/* line 9, ../sass/_home.sass */
-.price_position {
-  float: left;
-  margin-left: 9em;
-}
-
-/* line 13, ../sass/_home.sass */
-.footer_pic {
-  content: url(/static/styles/images/thermafuse.png);
-}
-
-/* line 19, ../sass/_home.sass */
-.content-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* line 23, ../sass/_home.sass */
-.center-alignment {
-  margin: 30px;
-}
-
-/* line 27, ../sass/_home.sass */
-.video_position {
-  position: static;
-  margin-right: 0em;
-  clear: both;
-  float: right;
-}
-
-/* line 33, ../sass/_home.sass */
-.video-top-padded {
-  margin-top: 15px;
-}
-
-/* line 36, ../sass/_home.sass */
-.candy-fonts {
-  font-family: Cabin;
-  font-size: 1em;
-  color: white;
-  text-align: center;
-}
-/* line 41, ../sass/_home.sass */
-.candy-fonts p {
-  position: relative;
-  left: 1.5rem;
-  font-size: 1.5rem;
-  font-family: Cantarell, Cabin, Blooming Grove, Sans Serif;
-  color: #ADAFB2;
-}
-/* line 47, ../sass/_home.sass */
-.candy-fonts a {
-  color: white;
-}
-/* line 49, ../sass/_home.sass */
-.candy-fonts a:hover {
-  color: black;
-}
-/* line 51, ../sass/_home.sass */
-.candy-fonts h2 {
-  font-size: 3em;
-  font-family: shadows into light;
-  color: white;
-}
-/* line 56, ../sass/_home.sass */
-.candy-fonts h4 {
-  font-family: Oswald, Georgia, Sans Serif;
-  color: #ADAFB2;
-}
-
-/* line 60, ../sass/_home.sass */
-.my_button {
+/* line 1, ../sass/_home.sass */
+.schedule-button {
   display: inline-block !important;
   text-align: center;
   line-height: 1;
@@ -284,172 +94,7 @@ li.align-left {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #C86AC7;
-  position: relative;
-}
-
-/* line 76, ../sass/_home.sass */
-.top {
-  margin-bottom: 10px;
-}
-
-/* line 80, ../sass/_home.sass */
-hr {
-  width: 100%;
-  color: red;
-}
-
-/* line 84, ../sass/_home.sass */
-.border_page {
-  border-top: solid 1px #c86ac7;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-/* line 90, ../sass/_home.sass */
-.prices h1 {
-  font-family: Oswald;
-  font-size: 4em;
-  color: white;
-  text-decoration: none;
-}
-/* line 95, ../sass/_home.sass */
-.prices h2 {
-  font-family: shadows into light;
-  font-size: 3em;
-  text-decoration: bold;
-  font-style: italic;
-  color: #c86ac7;
-}
-/* line 101, ../sass/_home.sass */
-.prices h3 {
-  color: white;
-  font-family: shadows into light;
-}
-/* line 104, ../sass/_home.sass */
-.prices ul {
-  font-family: shadows into light;
-  font-size: 3em;
-  text-decoration: bold;
-  font-style: italic;
-  color: #c86ac7;
-}
-/* line 112, ../sass/_home.sass */
-.prices li {
-  color: white;
-  font-family: shadows into light;
-  list-style: none;
-  font-size: 0.7em;
-}
-/* line 118, ../sass/_home.sass */
-.prices p {
-  color: white;
-  font-family: shadows into light;
-  font-size: 0.4em;
-}
-
-/* line 125, ../sass/_home.sass */
-.artists h1 {
-  font-family: Oswald;
-  font-size: 4em;
-  color: white;
-  text-decoration: none;
-}
-/* line 130, ../sass/_home.sass */
-.artists h2 {
-  font-family: shadows into light;
-  font-size: 3em;
-  text-decoration: bold;
-  font-style: italic;
-  color: #c86ac7;
-}
-/* line 137, ../sass/_home.sass */
-.artists h3 {
-  font-family: shadows into light;
-  font-size: 2em;
-  text-decoration: bold;
-  font-style: none;
-  color: white;
-}
-/* line 144, ../sass/_home.sass */
-.artists h4 {
-  font-family: shadows into light;
-  font-size: 1em;
-  text-decoration: bold;
-  font-style: italic;
-  color: white;
-}
-/* line 152, ../sass/_home.sass */
-.artists ul {
-  font-family: shadows into light;
-  font-size: 3em;
-  text-decoration: bold;
-  color: white;
-}
-/* line 159, ../sass/_home.sass */
-.artists li {
-  color: white;
-  font-family: shadows into light;
-  list-style: none;
-  font-size: 0.7em;
-}
-/* line 165, ../sass/_home.sass */
-.artists p {
-  color: white;
-  font-family: shadows into light;
-  font-size: 0.4em;
-}
-/* line 170, ../sass/_home.sass */
-.artists a:hover {
-  color: #c86ac7;
-}
-
-/* line 183, ../sass/_home.sass */
-.social-icons {
-  margin-top: -3%;
-  margin-left: 75%;
-  position: absolute;
-}
-
-/*  <!--NOT IN USE!!--> */
-/* line 213, ../sass/_home.sass */
-.content-right {
-  width: 100%;
-  float: right;
-  box-sizing: border-box;
-  padding: 20px;
-  background-color: rgba(10, 10, 10, 0.5);
-  height: 100px;
-  width: 500px;
-  position: relative;
-  left: 150px;
-}
-/* line 224, ../sass/_home.sass */
-.content-right p {
-  font-family: Blooming Grove;
-  color: white;
-  font-size: 30px;
-}
-/* line 229, ../sass/_home.sass */
-.content-right p:nth-child(3) {
-  font-size: 12px;
-}
-
-/* line 234, ../sass/_home.sass */
-.left-bar {
-  width: 30%;
-  float: left;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: rgba(10, 10, 10, 0);
-  height: 100px;
-  width: 300px;
-}
-/* line 242, ../sass/_home.sass */
-.left-bar p {
-  font-family: Cabin;
-  color: white;
-  font-size: 20px;
+  background-color: #c86ac7;
 }
 
 /* line 1, ../sass/_utils.sass */
@@ -481,44 +126,166 @@ img.slider-image-content {
   font-size: 1.3rem;
 }
 
-/* line 12, ../sass/salon.sass */
+/* line 2, ../sass/bio.sass */
+.artists h1 {
+  font-family: Oswald;
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+}
+/* line 7, ../sass/bio.sass */
+.artists h2 {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 14, ../sass/bio.sass */
+.artists h3 {
+  font-family: Shadows Into Light;
+  font-size: 2em;
+  text-decoration: bold;
+  font-style: none;
+  color: white;
+}
+/* line 21, ../sass/bio.sass */
+.artists h4 {
+  font-family: Shadows Into Light;
+  font-size: 1em;
+  text-decoration: bold;
+  font-style: italic;
+  color: white;
+}
+/* line 29, ../sass/bio.sass */
+.artists ul {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  color: white;
+}
+/* line 36, ../sass/bio.sass */
+.artists li {
+  color: white;
+  font-family: Shadows Into Light;
+  list-style: none;
+  font-size: 0.7em;
+}
+/* line 42, ../sass/bio.sass */
+.artists p {
+  color: white;
+  font-family: Shadows Into Light;
+  font-size: 0.4em;
+}
+/* line 47, ../sass/bio.sass */
+.artists a:hover {
+  color: #c86ac7;
+}
+
+/* line 1, ../sass/_services.sass */
+.video_position {
+  position: static;
+  margin-right: 0em;
+  clear: both;
+  float: right;
+}
+
+/* line 7, ../sass/_services.sass */
+.video-top-padded {
+  margin-top: 15px;
+}
+
+/* line 11, ../sass/_services.sass */
+.prices h1 {
+  font-family: Oswald;
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+}
+/* line 16, ../sass/_services.sass */
+.prices h2 {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 22, ../sass/_services.sass */
+.prices h3 {
+  color: white;
+  font-family: Shadows Into Light;
+}
+/* line 25, ../sass/_services.sass */
+.prices ul {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 33, ../sass/_services.sass */
+.prices li {
+  color: white;
+  font-family: Shadows Into Light;
+  list-style: none;
+  font-size: 0.7em;
+}
+/* line 39, ../sass/_services.sass */
+.prices p {
+  color: white;
+  font-family: Shadows Into Light;
+  font-size: 0.4em;
+}
+
+/* line 14, ../sass/salon.sass */
 .webicon:hover {
   margin: 0 0 5px !important;
 }
 
-/* line 15, ../sass/salon.sass */
+/* line 18, ../sass/salon.sass */
 h1 {
   font-style: Oswald, Georgia, Sans Serif !important;
 }
 
-/* line 21, ../sass/salon.sass */
+/* line 22, ../sass/salon.sass */
 header h1 {
-  font-style: Oswald, Georgia, Sans Serif;
-  color: #d32dd3;
+  color: #c86ac7;
   font-size: 12em;
   font-weight: bold;
   line-height: 1;
-  padding-top: 0;
-  padding-bottom: 0;
   padding: 0.7rem 1rem;
 }
 
-/* line 32, ../sass/salon.sass */
+@media screen and (min-width: 600px) {
+  /* line 29, ../sass/salon.sass */
+  #product-logos {
+    margin-top: 1.5rem;
+  }
+}
+
+/* line 33, ../sass/salon.sass */
+.social-icons {
+  margin-top: -3%;
+  margin-left: 75%;
+  position: absolute;
+}
+
+/* line 39, ../sass/salon.sass */
 .top-bar {
   background-color: #1e1e1e;
   height: 64px;
 }
-/* line 37, ../sass/salon.sass */
+/* line 42, ../sass/salon.sass */
 .top-bar ul {
   background-color: #1e1e1e;
   align: center;
   margin: 0 auto;
 }
-/* line 40, ../sass/salon.sass */
+/* line 45, ../sass/salon.sass */
 .top-bar ul a:hover {
   color: black;
 }
-/* line 43, ../sass/salon.sass */
+/* line 48, ../sass/salon.sass */
 .top-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
@@ -529,45 +296,45 @@ header h1 {
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 43, ../sass/salon.sass */
+  /* line 48, ../sass/salon.sass */
   .top-bar a {
     font-size: 1em;
   }
 }
 
-/* line 54, ../sass/salon.sass */
+/* line 59, ../sass/salon.sass */
 .top-bar-right {
   position: relative;
   right: 40%;
 }
 
-/* line 64, ../sass/salon.sass */
+/* line 65, ../sass/salon.sass */
 .top-bar-left li {
   margin-left: 0px;
   float: left;
 }
 
-/* line 72, ../sass/salon.sass */
+/* line 70, ../sass/salon.sass */
 .title-bar {
   background-color: #1e1e1e;
 }
-/* line 74, ../sass/salon.sass */
+/* line 72, ../sass/salon.sass */
 .title-bar ul {
   background-color: #1e1e1e;
   color: white;
 }
-/* line 77, ../sass/salon.sass */
+/* line 75, ../sass/salon.sass */
 .title-bar ul a:hover {
   color: #00427a;
 }
-/* line 79, ../sass/salon.sass */
+/* line 77, ../sass/salon.sass */
 .title-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 1em;
 }
 
-/* line 85, ../sass/salon.sass */
+/* line 83, ../sass/salon.sass */
 .menu-text {
   font-family: Oswald, Georgia, Sans Serif;
   text-transform: uppercase;
@@ -576,35 +343,30 @@ header h1 {
   color: #c86ac7;
 }
 @media screen and (max-width: 640px) {
-  /* line 85, ../sass/salon.sass */
+  /* line 83, ../sass/salon.sass */
   .menu-text {
     font-size: 1em;
   }
 }
 
-/*#logo-container
- * position: absolute
- * top: -15px
- * left: 50%
- * margin-left: -75px
- * height: 150px
- * width: 150px
- * background-color: #1e1e1e
- * padding: 1px
- * @media screen and (max-width: 640px)
- *     top: -5px
- *     width: 120px
- *     height: 120px
- *     margin-left: -60px */
-/* line 111, ../sass/salon.sass */
+/* line 95, ../sass/salon.sass */
 body {
   background-color: #1e1e1e;
 }
 
-/* line 116, ../sass/salon.sass */
-.image1 {
-  background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/wsvwU-fM_1KoVtElBe2Vew/ls.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+/* line 98, ../sass/salon.sass */
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 102, ../sass/salon.sass */
+hr {
+  color: #c86ac7;
+  background-color: #c86ac7;
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 1px;
+  margin: 15px 0 30px;
 }
