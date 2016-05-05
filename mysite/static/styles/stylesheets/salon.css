@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+/* line 10, ../sass/_fonts.sass */
+.candy-fonts {
+  font-family: Cabin;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+/* line 15, ../sass/_fonts.sass */
+.candy-fonts p {
+  position: relative;
+  left: 1.5rem;
+  font-size: 1.5rem;
+  font-family: Cantarell, Cabin, Sans Serif;
+  color: #ADAFB2;
+}
+/* line 21, ../sass/_fonts.sass */
+.candy-fonts a {
+  color: white;
+}
+/* line 23, ../sass/_fonts.sass */
+.candy-fonts a:hover {
+  color: black;
+}
+/* line 25, ../sass/_fonts.sass */
+.candy-fonts h2 {
+  font-size: 3em;
+  font-family: Shadows Into Light;
+  color: white;
+}
+/* line 30, ../sass/_fonts.sass */
+.candy-fonts h4 {
+  font-family: Oswald, Georgia, Sans Serif;
+  color: #ADAFB2;
+}
+
+/* line 2, ../sass/_lists.sass */
+ul.inline {
+  display: inline-block;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0.94444rem;
+  margin-left: -1rem;
+  padding: 0;
+}
+/* line 9, ../sass/_lists.sass */
+ul.inline li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin-left: 1rem;
+  border: 1px solid #c86ac7;
+  background-color: #c86ac7;
+  padding: -5px;
+  width: 100px;
+}
+/* line 18, ../sass/_lists.sass */
+ul.inline a {
+  padding: 0.7rem 0rem !important;
+}
+
+/* line 21, ../sass/_lists.sass */
+ul.plain {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0.94444rem;
+  margin-left: -1rem;
+  padding: 0;
+}
+/* line 27, ../sass/_lists.sass */
+ul.plain li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+/* line 31, ../sass/_lists.sass */
+li.align-left {
+  text-align: left;
+}
+
+/* line 1, ../sass/_home.sass */
+.schedule-button {
+  display: inline-block !important;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 5px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  background-color: #c86ac7;
+}
+
+/* line 1, ../sass/_utils.sass */
+.align-center {
+  text-align: center;
+}
+
+/* line 4, ../sass/_utils.sass */
+.align-left {
+  text-align: left;
+}
+
+/* line 7, ../sass/_utils.sass */
+.align-right {
+  text-align: right;
+}
+
+/* line 1, ../sass/_gallery.sass */
+img.slider-image-content {
+  height: 480px;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/_gallery.sass */
+.slider-text-content {
+  color: #2199e8;
+  margin-top: 0.25rem;
+  font-size: 1.3rem;
+}
+
+/* line 2, ../sass/bio.sass */
+.artists h1 {
+  font-family: Oswald;
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+}
+/* line 7, ../sass/bio.sass */
+.artists h2 {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 14, ../sass/bio.sass */
+.artists h3 {
+  font-family: Shadows Into Light;
+  font-size: 2em;
+  text-decoration: bold;
+  font-style: none;
+  color: white;
+}
+/* line 21, ../sass/bio.sass */
+.artists h4 {
+  font-family: Shadows Into Light;
+  font-size: 1em;
+  text-decoration: bold;
+  font-style: italic;
+  color: white;
+}
+/* line 29, ../sass/bio.sass */
+.artists ul {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  color: white;
+}
+/* line 36, ../sass/bio.sass */
+.artists li {
+  color: white;
+  font-family: Shadows Into Light;
+  list-style: none;
+  font-size: 0.7em;
+}
+/* line 42, ../sass/bio.sass */
+.artists p {
+  color: white;
+  font-family: Shadows Into Light;
+  font-size: 0.4em;
+}
+/* line 47, ../sass/bio.sass */
+.artists a:hover {
+  color: #c86ac7;
+}
+
+/* line 1, ../sass/_services.sass */
+.video_position {
+  position: static;
+  margin-right: 0em;
+  clear: both;
+  float: right;
+}
+
+/* line 7, ../sass/_services.sass */
+.video-top-padded {
+  margin-top: 15px;
+}
+
+/* line 11, ../sass/_services.sass */
+.prices h1 {
+  font-family: Oswald;
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+}
+/* line 16, ../sass/_services.sass */
+.prices h2 {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 22, ../sass/_services.sass */
+.prices h3 {
+  color: white;
+  font-family: Shadows Into Light;
+}
+/* line 25, ../sass/_services.sass */
+.prices ul {
+  font-family: Shadows Into Light;
+  font-size: 3em;
+  text-decoration: bold;
+  font-style: italic;
+  color: #c86ac7;
+}
+/* line 33, ../sass/_services.sass */
+.prices li {
+  color: white;
+  font-family: Shadows Into Light;
+  list-style: none;
+  font-size: 0.7em;
+}
+/* line 39, ../sass/_services.sass */
+.prices p {
+  color: white;
+  font-family: Shadows Into Light;
+  font-size: 0.4em;
+}
+
+/* line 14, ../sass/salon.sass */
+.webicon:hover {
+  margin: 0 0 5px !important;
+}
+
+/* line 18, ../sass/salon.sass */
+h1 {
+  font-style: Oswald, Georgia, Sans Serif !important;
+}
+
+/* line 22, ../sass/salon.sass */
+header h1 {
+  color: #c86ac7;
+  font-size: 12em;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.7rem 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 29, ../sass/salon.sass */
+  #product-logos {
+    margin-top: 1.5rem;
+  }
+}
+
+/* line 33, ../sass/salon.sass */
+.social-icons {
+  margin-top: -3%;
+  margin-left: 75%;
+  position: absolute;
+}
+
+/* line 40, ../sass/salon.sass */
+.title-bar {
+  background-color: #1e1e1e;
+}
+
+/* line 43, ../sass/salon.sass */
+.top-bar {
+  position: fixed;
+  top: 0.25rem;
+  left: 0.25rem;
+  z-index: 300;
+  background-color: #1e1e1e;
+  border: 1px solid #c86ac7;
+}
+/* line 50, ../sass/salon.sass */
+.top-bar ul {
+  background-color: #1e1e1e;
+}
+/* line 52, ../sass/salon.sass */
+.top-bar a {
+  color: #FFF;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1.4em;
+  margin: 0 auto;
+  align: center;
+  padding: 0.7rem 0rem;
+}
+/* line 59, ../sass/salon.sass */
+.top-bar a:hover {
+  color: #c86ac7;
+}
+/* line 62, ../sass/salon.sass */
+.top-bar li.active a {
+  color: #c86ac7;
+}
+
+/* line 66, ../sass/salon.sass */
+.menu-bar {
+  background-color: #1e1e1e;
+  height: 64px;
+}
+/* line 69, ../sass/salon.sass */
+.menu-bar ul {
+  background-color: #1e1e1e;
+  align: center;
+  margin: 0 auto;
+}
+/* line 72, ../sass/salon.sass */
+.menu-bar ul a:hover {
+  color: black;
+}
+/* line 75, ../sass/salon.sass */
+.menu-bar a {
+  color: white;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1.65em;
+  margin: 0 auto;
+  align: center;
+  padding: 0.7rem 0rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 640px) {
+  /* line 75, ../sass/salon.sass */
+  .menu-bar a {
+    font-size: 1em;
+  }
+}
+
+/* line 87, ../sass/salon.sass */
+.menu-text {
+  font-family: Oswald, Georgia, Sans Serif;
+  text-transform: uppercase;
+  font-size: 14.65em;
+  align: center;
+  color: #c86ac7;
+}
+@media screen and (max-width: 640px) {
+  /* line 87, ../sass/salon.sass */
+  .menu-text {
+    font-size: 1em;
+  }
+}
+
+/* line 99, ../sass/salon.sass */
+body {
+  background-color: #1e1e1e;
+}
+
+/* line 102, ../sass/salon.sass */
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 106, ../sass/salon.sass */
+hr {
+  color: #c86ac7;
+  background-color: #c86ac7;
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 1px;
+  margin: 15px 0 30px;
+}

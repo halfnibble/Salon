@@ -7,71 +7,62 @@
 {% block body_class %}menu_page{% endblock %}
 
 {% block content %}
-    
+
      <br>
 
      <br>
 
     <div class="row">
-
-        <div class="small-4 columns artists align-left">
-              
+        <div class="medium-6 columns artists">
             <h1>Hours</h1>
             <h3>Monday-Friday 10am-7pm</h3>
             <h3>Saturday 9-5pm</h3>
             <h3>Sunday Appointment Only.</h3>
             <h4>*Appointments may be made earlier than alloted times.</h4>
+        </div>
 
-        </div> 
-
-        <div class="small-4 small-offset-4 columns artists">   
+        <div class="medium-5 medium-offset-1 columns artists">
             <h1>Location</h1>
             <h3>122 West 2nd Street <br>
                 Downtown Reno, NV</h3>
-            <h3>Phone: (775) 336-0285</h3>    
-
-        </div>    
+            <h3>Phone: (775) 336-0285</h3>
+        </div>
     </div>
 
+    <br>
+    <br>
 
-        <br>
-        <div class="row">
-          <div class="large-8 medium-10 candy-fonts  columns">
-
-      {% static_placeholder 'content' %}
-            <!-- MIGHT NOT BE NEEDED. <h2 style="color:#c86ac7"> Please contact us using the form below:</h2>-->
+    <div class="row">
+        <div class="medium-6 columns candy-fonts">
+            <h2 style="color:#c86ac7"> Please contact us using the form below:</h2>
+            {% placeholder 'contact_form' %}
         </div>
 
-
-        <div class="row">
-          <div class=" large-4 large-offset-8 artists columns">
-            <ul> <span style="color:#c86ac7">Artists</span> which have <br> contributed to our <br> salon:
-              <li><a href="http://www.abcartattack.com/">Bryce Chisholm</a></li>
-              <li><a href="http://www.tonyperezphotographs.etsy.com">Tony Perez</a></li>
-              <li><a href="http://www.potentialistworkshop.com">Pan Pantoja</a></li>
-              <li><a href="http://Joecrockart.com">Joseph Corgile</a></li>
-              <li><a href="http://rebeccareneephoto.wix.com/rrphoto">Becca Ewart</a></li>
-              <li><a href="http://www.rawartists.org/jasonclark">Jason Clark</a></li>
-          </div>
+        <div class="medium-5 medium-offset-1 columns artists">
+            <h2>
+                Artists <span style="color:#FFF">which have contributed to our salon:</span>
+            </h2>
+            <ul>
+                <li><a href="http://www.abcartattack.com/">Bryce Chisholm</a></li>
+                <li><a href="http://www.tonyperezphotographs.etsy.com">Tony Perez</a></li>
+                <li><a href="http://www.potentialistworkshop.com">Pan Pantoja</a></li>
+                <li><a href="http://Joecrockart.com">Joseph Corgile</a></li>
+                <li><a href="http://rebeccareneephoto.wix.com/rrphoto">Becca Ewart</a></li>
+                <li><a href="http://www.rawartists.org/jasonclark">Jason Clark</a></li>
+            </ul>
         </div>
+    </div>
 
-
-        <div class="prices">
-        <h3> *We are part of the Reno Art Walk. If you are an artist and would like to be featured in our salon,
-        please contact us using the form on this page.</h3>
+    <div class="row">
+        <div class="small-12 columns prices">
+            <h3> *We are part of the Reno Art Walk. If you are an artist and would like to be featured in our salon,
+            please contact us using the form on this page.</h3>
         </div>
+    </div>
 
- 
-           <!--Artists which have contributed to our salon walls and which we are greatly thankful for: -->
-  
+    <!--Artists which have contributed to our salon walls and which we are greatly thankful for: -->
 
-
-
-
-
-           
     <footer>
         {% static_placeholder 'footer' %}
     </footer>
 {% endblock content %}
-

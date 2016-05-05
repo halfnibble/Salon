@@ -5,13 +5,12 @@
         <meta charset="utf-8">
         <title>{% block title %}This is my new project home page{% endblock title %}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Silver State Coffee </title>
+        <title>Eye Candy Salon</title>
 
-        <link rel="stylesheet"  href="/static/foundation/bower_components/foundation-sites/dist/foundation.css">
-        <link type="text/css" link rel="stylesheet" href="/static/styles/stylesheets/Roast.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{% static 'foundation/webicons/webicons-master/webicons.css' %}" media="screen" title="no title" charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+        <link rel="stylesheet" type="text/css" href="/static/foundation/bower_components/foundation-sites/dist/foundation.css">
+        <link rel="stylesheet" type="text/css" href="/static/styles/stylesheets/salon.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'foundation/webicons/webicons-master/webicons.css' %}" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" type="text/css" href="/static/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="/static/slick/slick-theme.css"/>
 
@@ -21,43 +20,46 @@
     <body class="{% block body_class %}{% endblock %} svg">
 
         {% cms_toolbar %}
+
         <div class="container">
 
             <!-- NAVIGATION -->
-            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-                <button class="menu-icon my_button" type="button" data-toggle></button>
-                <div class="title-bar-title" >Eye Candy Salon </div>
+            <div class="top-bar show-for-small-only">
+                <div class="title-bar" data-responsive-toggle="mobile-menu">
+                    <button class="menu-icon" type="button" data-toggle></button>
+                </div>
+                <div id="mobile-menu" class="top-bar-left ">
+                    <ul class="dropdown menu" data-dropdown-menu>
+
+                        <!--dynamically generates the menu -->
+                        {% show_menu 0 1 100 100 "menu.html" %}
+                    </ul>
+                </div>
             </div>
 
             <p></p>
 
             <header class="align-center row">
-                <div class="medium-6 columns">
-
-                    <a href="/"><img src="{% static 'styles/images/eyecandy-logo.svg' %}" alt="EYE CANDY SALON"></a>
+                <div class="medium-6 small-6 small-offset-3 medium-offset-0 columns">
+                    <a href="/">
+                        <img src="{% static 'styles/images/eyecandy-logo.svg' %}" alt="EYE CANDY SALON">
+                    </a>
                 </div>
-                <div class="medium-6 columns">
-
+                <div class="medium-6 small-12 columns">
                     <img src="{% static 'styles/images/product-logos-v2.jpg' %}" id="product-logos" alt="Product Logos">
                 </div>
             </header>
-                <div class="social-icons">
 
+            <div class="social-icons">
                 <a href="https://www.facebook.com/eyecandysalonreno/">
-                  <div class="small webicon facebook"></div>
+                    <div class="small webicon facebook"></div>
                 </a>
                 <a href="">
-                  <div class="small webicon twitter"></div>
+                    <div class="small webicon twitter"></div>
                 </a>
-                  </div>
-              </div>      
-                 
+            </div>
 
-        
-
-            <div class="top-bar" id="main-menu">
-
-
+            <div class="menu-bar show-for-medium" id="main-menu">
                 <div class="align-center">
                     <ul class="dropdown menu inline" data-dropdown-menu>
 
@@ -85,7 +87,6 @@
         {% block extra_scripts %}
             <!-- Load page scripts after libraries are loaded. -->
         {% endblock %}
-
 
         <script type="text/javascript">
             // Setup Foundation 6 features.

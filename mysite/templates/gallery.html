@@ -1,4 +1,3 @@
-
 {% extends "base.html" %}
 {% load cms_tags staticfiles %}
 
@@ -8,53 +7,53 @@
 
 {% block content %}
     <!-- SOME OF THE DUMMY IMAGES WIDTH AND HEIGHT ARE OUT OF PLACE WITH THE SLIDER. I FOUND THE IDEAL HEIGHT\WIDTH TO BE AROUND 900X500. -->
-<div class="row">
-            <div class="small-12  columns candy-fonts " data-equalizer-watch="">
-            <br>
-                <h2 class="align-center" style="color:#c86ac7; font-family:Oswald;">Gallery</h2>
-                  <div class="border_page"> </div>
-           </div>
-</div>            
-
     <div class="row">
-      <div class="large-10 large-offset-2 columns">
-
-
-    <br>
-    <br>
-        <div class="row  large-12 text-center slick-multislider">
-          <div class="large-12  columns" >
-              <img src="http://www.saddletude.com/wp-content/uploads/2015/09/1_how-to-have-nice-hair.jpg"   alt="">
-          </div>
-
-          <div class="large-12 small-12 columns">
-            <img src="http://allhairstyles.website/img/nice-haircuts/nice-haircuts-5.jpg"  alt="">
-            <div class="title-blue-line-content"></div>
-          </div>
-
-          <!-- THIS ONE IN PARTICULAR IS THE BEST FITTING HEIGHT\WIDTH IMAGE FOR THE GALLERY -->
-          <div class="large-12 small-12 columns">
-            <img src="http://www.radioone.world/wp-content/uploads/2016/02/women-long-hairstyle-ideas-nice-long-hairstyles-as-beautiful-hair-for-lnuot7cqlclgqbtj.jpg" alt="">
-            <div class="title-blue-line-content"></div>
-          </div>
-
-          <div class="large-12 columns">
-            <img src="https://s-media-cache-ak0.pinimg.com/736x/d9/34/14/d93414b31dd15bd6e9785a50d37ae55b.jpg" alt="">
-            <div class="title-blue-line-content"></div>
-          </div>
-
-          <div class="large-12 columns">
-            <img src="http://i.weddingomania.com/30-beautiful-and-natural-long-wedding-hairstyles-ideas-2.jpg"  alt="">
-            <div class="title-blue-line-content"></div>
-          </div>
-
-        <div class="large-12 columns">
-          <img src="http://dfemale.com/wp-content/uploads/2015/02/hairstyle-ideas-for-long-hair.jpg" alt="">
-          <div class="title-blue-line-content"></div>
-      </div>
+        <div class="small-12 columns candy-fonts">
+            <br>
+            <h2 class="align-center" style="color:#c86ac7; font-family:Oswald;">Gallery</h2>
+            <hr>
+        </div>
     </div>
 
-           
+    <div class="row">
+        <div class="large-10 large-offset-1 columns">
+            <br>
+            <br>
+            <div class="row text-center slick-multislider">
+                <div class="small-12 columns">
+                    <img class="slider-image-content" src="http://www.saddletude.com/wp-content/uploads/2015/09/1_how-to-have-nice-hair.jpg" alt="">
+                    <div class="slider-text-content">Test content. Place text here.</div>
+                </div>
+
+                <div class="small-12 columns">
+                    <img class="slider-image-content" src="http://allhairstyles.website/img/nice-haircuts/nice-haircuts-5.jpg" alt="">
+                    <div class="slider-text-content">Test content. Place text here.</div>
+                </div>
+
+                <!-- THIS ONE IN PARTICULAR IS THE BEST FITTING HEIGHT\WIDTH IMAGE FOR THE GALLERY -->
+                <div class="small-12 columns">
+                    <img class="slider-image-content" src="http://www.radioone.world/wp-content/uploads/2016/02/women-long-hairstyle-ideas-nice-long-hairstyles-as-beautiful-hair-for-lnuot7cqlclgqbtj.jpg" alt="">
+                    <div class="slider-text-content">Test content. Place text here.</div>
+                </div>
+
+                <div class="small-12 columns">
+                    <img class="slider-image-content" src="https://s-media-cache-ak0.pinimg.com/736x/d9/34/14/d93414b31dd15bd6e9785a50d37ae55b.jpg" alt="">
+                    <div class="slider-text-content">Test content. Place text here.</div>
+                </div>
+
+                <div class="small-12 columns">
+                    <img class="slider-image-content" src="http://i.weddingomania.com/30-beautiful-and-natural-long-wedding-hairstyles-ideas-2.jpg"  alt="">
+                    <div class="slider-text-content">Test content. Place text here.</div>
+                </div>
+
+                <div class="small-12 columns">
+                    <img class="slider-image-content" src="http://dfemale.com/wp-content/uploads/2015/02/hairstyle-ideas-for-long-hair.jpg" alt="">
+                    <div class="slider-text-content">Test content. Place text here.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         {% static_placeholder 'footer' %}
     </footer>
@@ -62,7 +61,7 @@
 
 {% block extra_scripts %}
 
-    <!-- CHANGED THE 'SLIDES TO SHOW' TO 1, SO THAT ONLY ONE IMAGE WOULD APPEAR.-->  
+    <!-- CHANGED THE 'SLIDES TO SHOW' TO 1, SO THAT ONLY ONE IMAGE WOULD APPEAR.-->
     <!-- AUTO PLAY IS FUNCTIONING. -->
 
     <script type="text/javascript">

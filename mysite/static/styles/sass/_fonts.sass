@@ -1,10 +1,32 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700)
-@import url(https://fonts.googleapis.com/css?family=Pacifico)
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light)
-// @include font-face("Blooming Grove", font-files("styles/fonts/bgrove.ttf", "styles/fonts/bgrove.otf"))
+@import url("https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700")
+@import url("https://fonts.googleapis.com/css?family=Pacifico")
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light")
 
 $header_font: Oswald, Georgia, Sans Serif
-$p_font: Cantarell, Cabin, Blooming Grove, Sans Serif
-$test: Georgia
+$p_font: Cantarell, Cabin, Sans Serif
 $h1_font: Pacifico
-$li_font: shadows into light
+$fancy_font: Shadows Into Light
+
+.candy-fonts
+    font-family: Cabin
+    font-size: 1em
+    color: white
+    text-align: center
+    p
+        position: relative
+        left: 1.5rem
+        font-size: 1.5rem
+        font-family: $p_font
+        color: $silver
+    a
+        color: white
+    a:hover
+        color: black
+    h2
+        font-size: 3em
+        font-family: $fancy_font
+
+        color: white
+    h4
+        font-family: $header_font
+        color: $silver
