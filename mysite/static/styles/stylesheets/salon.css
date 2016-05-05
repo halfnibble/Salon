@@ -121,7 +121,7 @@ img.slider-image-content {
 
 /* line 6, ../sass/_gallery.sass */
 .slider-text-content {
-  color: #00A6BC;
+  color: #2199e8;
   margin-top: 0.25rem;
   font-size: 1.3rem;
 }
@@ -270,23 +270,59 @@ header h1 {
   position: absolute;
 }
 
-/* line 39, ../sass/salon.sass */
+/* line 40, ../sass/salon.sass */
+.title-bar {
+  background-color: #1e1e1e;
+}
+
+/* line 43, ../sass/salon.sass */
 .top-bar {
+  position: fixed;
+  top: 0.25rem;
+  left: 0.25rem;
+  z-index: 300;
+  background-color: #1e1e1e;
+  border: 1px solid #c86ac7;
+}
+/* line 50, ../sass/salon.sass */
+.top-bar ul {
+  background-color: #1e1e1e;
+}
+/* line 52, ../sass/salon.sass */
+.top-bar a {
+  color: #FFF;
+  font-family: Oswald, Georgia, Sans Serif;
+  font-size: 1.4em;
+  margin: 0 auto;
+  align: center;
+  padding: 0.7rem 0rem;
+}
+/* line 59, ../sass/salon.sass */
+.top-bar a:hover {
+  color: #c86ac7;
+}
+/* line 62, ../sass/salon.sass */
+.top-bar li.active a {
+  color: #c86ac7;
+}
+
+/* line 66, ../sass/salon.sass */
+.menu-bar {
   background-color: #1e1e1e;
   height: 64px;
 }
-/* line 42, ../sass/salon.sass */
-.top-bar ul {
+/* line 69, ../sass/salon.sass */
+.menu-bar ul {
   background-color: #1e1e1e;
   align: center;
   margin: 0 auto;
 }
-/* line 45, ../sass/salon.sass */
-.top-bar ul a:hover {
+/* line 72, ../sass/salon.sass */
+.menu-bar ul a:hover {
   color: black;
 }
-/* line 48, ../sass/salon.sass */
-.top-bar a {
+/* line 75, ../sass/salon.sass */
+.menu-bar a {
   color: white;
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 1.65em;
@@ -296,45 +332,13 @@ header h1 {
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 48, ../sass/salon.sass */
-  .top-bar a {
+  /* line 75, ../sass/salon.sass */
+  .menu-bar a {
     font-size: 1em;
   }
 }
 
-/* line 59, ../sass/salon.sass */
-.top-bar-right {
-  position: relative;
-  right: 40%;
-}
-
-/* line 65, ../sass/salon.sass */
-.top-bar-left li {
-  margin-left: 0px;
-  float: left;
-}
-
-/* line 70, ../sass/salon.sass */
-.title-bar {
-  background-color: #1e1e1e;
-}
-/* line 72, ../sass/salon.sass */
-.title-bar ul {
-  background-color: #1e1e1e;
-  color: white;
-}
-/* line 75, ../sass/salon.sass */
-.title-bar ul a:hover {
-  color: #00427a;
-}
-/* line 77, ../sass/salon.sass */
-.title-bar a {
-  color: white;
-  font-family: Oswald, Georgia, Sans Serif;
-  font-size: 1em;
-}
-
-/* line 83, ../sass/salon.sass */
+/* line 87, ../sass/salon.sass */
 .menu-text {
   font-family: Oswald, Georgia, Sans Serif;
   text-transform: uppercase;
@@ -343,24 +347,24 @@ header h1 {
   color: #c86ac7;
 }
 @media screen and (max-width: 640px) {
-  /* line 83, ../sass/salon.sass */
+  /* line 87, ../sass/salon.sass */
   .menu-text {
     font-size: 1em;
   }
 }
 
-/* line 95, ../sass/salon.sass */
+/* line 99, ../sass/salon.sass */
 body {
   background-color: #1e1e1e;
 }
 
-/* line 98, ../sass/salon.sass */
+/* line 102, ../sass/salon.sass */
 .content-wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 102, ../sass/salon.sass */
+/* line 106, ../sass/salon.sass */
 hr {
   color: #c86ac7;
   background-color: #c86ac7;

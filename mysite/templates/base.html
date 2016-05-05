@@ -24,20 +24,28 @@
         <div class="container">
 
             <!-- NAVIGATION -->
-            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-                <button class="menu-icon my_button" type="button" data-toggle></button>
-                <div class="title-bar-title" >Eye Candy Salon</div>
+            <div class="top-bar show-for-small-only">
+                <div class="title-bar" data-responsive-toggle="mobile-menu">
+                    <button class="menu-icon" type="button" data-toggle></button>
+                </div>
+                <div id="mobile-menu" class="top-bar-left ">
+                    <ul class="dropdown menu" data-dropdown-menu>
+
+                        <!--dynamically generates the menu -->
+                        {% show_menu 0 1 100 100 "menu.html" %}
+                    </ul>
+                </div>
             </div>
 
             <p></p>
 
             <header class="align-center row">
-                <div class="medium-6 columns">
+                <div class="medium-6 small-6 small-offset-3 medium-offset-0 columns">
                     <a href="/">
                         <img src="{% static 'styles/images/eyecandy-logo.svg' %}" alt="EYE CANDY SALON">
                     </a>
                 </div>
-                <div class="medium-6 columns">
+                <div class="medium-6 small-12 columns">
                     <img src="{% static 'styles/images/product-logos-v2.jpg' %}" id="product-logos" alt="Product Logos">
                 </div>
             </header>
@@ -51,7 +59,7 @@
                 </a>
             </div>
 
-            <div class="top-bar" id="main-menu">
+            <div class="menu-bar show-for-medium" id="main-menu">
                 <div class="align-center">
                     <ul class="dropdown menu inline" data-dropdown-menu>
 

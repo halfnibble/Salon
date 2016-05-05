@@ -35,8 +35,35 @@ header
     margin-left: 75% // target/context
     position: absolute
 
-// Nav Bar
+
+// Mobile Menu
+.title-bar
+    background-color: #1e1e1e
+
 .top-bar
+    position: fixed
+    top: 0.25rem
+    left: 0.25rem
+    z-index: 300
+    background-color: #1e1e1e
+    border: 1px solid $main_color
+    ul
+        background-color: #1e1e1e
+    a
+        color: #FFF
+        font-family: $header_font
+        font-size: 1.4em
+        margin: 0 auto
+        align: center
+        padding: 0.7rem 0rem
+        &:hover
+            color: $main_color
+    li.active
+        a
+            color: $main_color
+
+// In page menu
+.menu-bar
     background-color: #1e1e1e
     height: 64px
     ul
@@ -55,29 +82,6 @@ header
         @media screen and (max-width: 640px)
             font-size: 1em
         margin: 0 auto
-
-.top-bar-right
-    position: relative
-    right: 40%
-    @media screen and (max-width: 640px)
-
-.top-bar-left
-    li
-        margin-left: 0px
-        float: left
-
-// Mobile Menu
-.title-bar
-    background-color: #1e1e1e
-    ul
-        background-color: #1e1e1e
-        color: white
-        a:hover
-            color: #00427a
-    a
-        color: white
-        font-family: $header_font
-        font-size: 1em
 
 // Top bar menu text
 .menu-text
