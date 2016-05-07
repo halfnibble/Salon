@@ -8,16 +8,16 @@ $h1_font: Pacifico
 $fancy_font: Shadows Into Light
 
 .candy-fonts
-    font-family: Cabin
+    font-family: $p_font
     font-size: 1em
     color: white
     text-align: center
     p
-        position: relative
-        left: 1.5rem
+        margin-left: 1.5rem
         font-size: 1.5rem
-        font-family: $p_font
-        color: $silver
+        color: #FFF
+        span
+            font-style: italic
     a
         color: white
     a:hover
@@ -25,8 +25,9 @@ $fancy_font: Shadows Into Light
     h2
         font-size: 3em
         font-family: $fancy_font
-
         color: white
+        @media screen and (max-width: 640px)
+            font-size: 2.5em
     h4
         font-family: $header_font
         color: $silver

@@ -1,29 +1,32 @@
 .artists
     h1
-        font-family: Oswald
-        font-size: 4em
-        color: white
+        font-family: $header_font
+        font-size: 3em
+        color: #FFF
         text-decoration: none
+        @media screen and (max-width: 640px)
+            font-size: 2.5em
     h2
         font-family: $fancy_font
         font-size: 3em
-        text-decoration: bold
         font-style: italic
         color: $main_color
+        @media screen and (max-width: 640px)
+            font-size: 2.5em
 
     h3
         font-family: $fancy_font
         font-size: 2em
         text-decoration: bold
         font-style: none
-        color: white
+        color: #FFF
 
     h4
         font-family: $fancy_font
         font-size: 1em
         text-decoration: bold
         font-style: italic
-        color: white
+        color: #FFF
 
 
     ul
@@ -31,18 +34,18 @@
         font-family: $fancy_font
         font-size: 3em
         text-decoration: bold
-        color: white
+        color: #FFF
 
     li
-        color: white
+        color: #FFF
         font-family: $fancy_font
         list-style: none
         font-size: 0.7em
 
     p
-        color: white
-        font-family: $fancy_font
-        font-size: 0.4em
+        color: #FFF
+        font-family: $p_font
+        font-size: 0.7em
 
     a:hover
         color: $main_color
