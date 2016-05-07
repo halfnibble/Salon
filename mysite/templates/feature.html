@@ -5,31 +5,33 @@
 
 {% block container %}
 
-     <div class="content-wrapper">
+    <div class="content-wrapper">
+        <br>
 
-
-     <br>
-     <br>
-     <div id="sliderFrame">
-        <div id="slider">
+        <div class="row">
             <div class="small-12 columns">
-            <img src="{% static 'styles/images/test.jpg' %}"  height="306px" width="700px"  alt="" />
+                <div id="sliderFrame">
+                    <div id="slider">
+                        <img src="{% static 'styles/images/test.jpg' %}"  height="306px" width="700px"  alt="" />
+                        <img src="{% static 'styles/images/test2.jpg' %}" height="306px" width="700px"  alt="" />
+                        <img src="{% static 'styles/images/test3.jpg' %}" height="306px" width="700px"  alt="" />
+                        <img src="{% static 'styles/images/test4.jpg' %}" height="306px" width="700px"  alt="" />
+                    </div>
+                </div>
             </div>
-            <a href="http://menucool.com"><img src="{% static 'styles/images/test2.jpg' %}" height="306px" width="700px"  alt="" /></a>
-            <img src="{% static 'styles/images/test3.jpg' %}" height="306px" width="700px"  alt="" />
-            <img src="{% static 'styles/images/test4.jpg' %}" height="306px" width="700px"  alt="" />
         </div>
-    </div>
 
-    <br>
-    <br>
+        <br>
+        <br>
 
+
+        {# <a href="http://menucool.com"></a>#}
         <div class="row">
             <div class="small-12 columns candy-fonts">
                 <h2 class="align-center">
                     With more than 30 years of experience, we have dedicated ourselves to mastering
                     the art of beauty and color.
-                    Book an appointment and <span style="color:#C86AC7">Turn Heads... be Eye Candy.</span>
+                    Book an appointment and <span class="pink">Turn Heads... be Eye Candy.</span>
                 </h2>
                 <br>
                 <a href="https://www.schedulicity.com/scheduling/ECSB76" class="schedule-button">Schedule Now!</a>
@@ -38,21 +40,11 @@
             </div>
         </div>
 
-      
-
         <!--Videos at the bottom of front page-->
-
-     
-        <br>
-        <br>
-
-
-        <div class="border_page"></div>
-
         <div class="row">
             <div class="medium-4 columns">
                 <div class="flex-video video-top-padded " style="border: 1px solid #C86AC7;">
-                    <iframe width="420" height="315" src="http://www.youtube.com/embed/7B-ax-r8cNo"> </iframe>
+                    <iframe width="420" height="315" src="http://www.youtube.com/embed/7B-ax-r8cNo" frameborder="0" allowfullscreen></iframe>
                     <br>
                 </div>
             </div>
@@ -70,8 +62,9 @@
                 </div>
             </div>
         </div>
-
     </div>
+
+    <br><br>
 
     <footer>
         {% static_placeholder 'footer' %}

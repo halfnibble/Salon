@@ -7,57 +7,51 @@
 
 {% block content %}
     <!-- SOME OF THE DUMMY IMAGES WIDTH AND HEIGHT ARE OUT OF PLACE WITH THE SLIDER. I FOUND THE IDEAL HEIGHT\WIDTH TO BE AROUND 900X500. -->
-    <div class="row">
-        <div class="small-12 columns candy-fonts">
-            <br>
-            <h2 class="align-center" style="color:#c86ac7; font-family:Oswald;">Gallery</h2>
-            <hr>
-        </div>
+    <br>
+    <div class="align-center">
+        <h1 class="align-center page-title">
+            Gallery
+        </h1>
     </div>
 
+    <br>
+    <br>
+
     <div class="row">
-        <div class="large-10 large-offset-1 columns">
-            <br>
-            <br>
-            <div class="row text-center slick-multislider">
-                <div class="small-12 columns">
+        <div class="small-10 small-offset-1 columns">
+            <div class="slick-multislider">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/2.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
 
-                <div class="large-12 columns">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/5.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
 
-                <!-- THIS ONE IN PARTICULAR IS THE BEST FITTING HEIGHT\WIDTH IMAGE FOR THE GALLERY -->
-                <div class="small-12 columns">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/9.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
 
-                <div class="small-12 columns">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/13.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
 
-                <div class="small-12 columns">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/7.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
 
-                <div class="small-12 columns">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/1.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
 
-                <div class="small-12 columns">
+                <div>
                     <img class="slider-image-content" src="{% static 'styles/images/14.jpg' %}" alt="">
-                    <div class="slider-text-content">Test content. Place text here.</div>
                 </div>
             </div>
         </div>
     </div>
+
+    <br><br>
 
     <footer>
         {% static_placeholder 'footer' %}
