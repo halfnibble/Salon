@@ -410,6 +410,11 @@ form p::after {
   height: 0;
 }
 
+/* line 37, ../sass/_contact.sass */
+textarea {
+  height: 6rem !important;
+}
+
 /* line 15, ../sass/salon.sass */
 .webicon:hover {
   margin: 0 0 5px !important;
