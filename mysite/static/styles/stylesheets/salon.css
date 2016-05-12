@@ -364,7 +364,7 @@ img.slider-image-content {
 .prices p {
   color: white;
   font-family: Cantarell, Cabin, Sans Serif;
-  font-size: 0.4em;
+  font-size: 1em;
 }
 
 /* line 1, ../sass/_contact.sass */
@@ -464,4 +464,13 @@ hr {
   max-width: 100%;
   height: 1px;
   margin: 15px 0 30px;
+}
+
+/* line 68, ../sass/salon.sass */
+img {
+  max-width: 100% !important;
+  height: 100% !important;
+  -ms-interpolation-mode: bicubic !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
 }
