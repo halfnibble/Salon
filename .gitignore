@@ -12,4 +12,6 @@ mysite/secret.py
 
 project.db
 
+Salon.git
+
 mysite/static/styles/.sass-cache/*
