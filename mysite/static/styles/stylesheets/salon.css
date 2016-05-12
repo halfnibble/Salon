@@ -376,7 +376,8 @@ label {
 
 /* line 6, ../sass/_contact.sass */
 input[type="submit"] {
-  display: inline-block !important;
+  display: block !important;
+  clear: both;
   text-align: center;
   line-height: 1;
   cursor: pointer;
@@ -386,9 +387,28 @@ input[type="submit"] {
   border: 5px solid transparent;
   border-radius: 0;
   padding: 0.85em 1em;
-  margin: 0 0 1rem 0;
+  margin: 0 auto 1rem;
   font-size: 0.9rem;
   background-color: #c86ac7;
+}
+
+/* line 23, ../sass/_contact.sass */
+label {
+  float: left;
+}
+
+/* line 26, ../sass/_contact.sass */
+input[type="checkbox"] {
+  float: right;
+  margin-top: 14px;
+}
+
+/* line 31, ../sass/_contact.sass */
+form p::after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
 }
 
 /* line 15, ../sass/salon.sass */
