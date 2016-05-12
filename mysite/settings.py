@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
-from .secret import SECRET_KEY
+from .secret import SECRET_KEY, DB_LOCATION, SENDGRID_PASSWORD
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -201,7 +201,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'NAME': 'project.db',
+        'NAME': DB_LOCATION,
         'PASSWORD': '',
         'PORT': '',
         'USER': ''
@@ -222,3 +222,11 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+
+# Email settings
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'eyecandyreno'
+EMAIL_HOST_PASSWORD = SENDGRID_PASSWORD
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True

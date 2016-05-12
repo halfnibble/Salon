@@ -376,7 +376,8 @@ label {
 
 /* line 6, ../sass/_contact.sass */
 input[type="submit"] {
-  display: inline-block !important;
+  display: block !important;
+  clear: both;
   text-align: center;
   line-height: 1;
   cursor: pointer;
@@ -386,9 +387,28 @@ input[type="submit"] {
   border: 5px solid transparent;
   border-radius: 0;
   padding: 0.85em 1em;
-  margin: 0 0 1rem 0;
+  margin: 0 auto 1rem;
   font-size: 0.9rem;
   background-color: #c86ac7;
+}
+
+/* line 23, ../sass/_contact.sass */
+label {
+  float: left;
+}
+
+/* line 26, ../sass/_contact.sass */
+input[type="checkbox"] {
+  float: right;
+  margin-top: 14px;
+}
+
+/* line 31, ../sass/_contact.sass */
+form p::after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
 }
 
 /* line 15, ../sass/salon.sass */
@@ -410,30 +430,35 @@ header h1 {
   padding: 0.7rem 1rem;
 }
 
+/* line 30, ../sass/salon.sass */
+#brand {
+  width: 100%;
+}
+
 @media screen and (min-width: 600px) {
-  /* line 30, ../sass/salon.sass */
+  /* line 33, ../sass/salon.sass */
   #product-logos {
     margin-top: 1.5rem;
   }
 }
 
-/* line 34, ../sass/salon.sass */
+/* line 37, ../sass/salon.sass */
 .social-icons {
   padding-right: 10%;
   text-align: right;
 }
-/* line 37, ../sass/salon.sass */
+/* line 40, ../sass/salon.sass */
 .social-icons a {
   margin-left: 0.3rem;
 }
 
-/* line 41, ../sass/salon.sass */
+/* line 44, ../sass/salon.sass */
 body {
   background-color: #1e1e1e;
   color: #FFF;
 }
 
-/* line 45, ../sass/salon.sass */
+/* line 48, ../sass/salon.sass */
 .page-title {
   font-family: Oswald, Georgia, Sans Serif;
   font-size: 2.5em;
@@ -443,19 +468,19 @@ body {
   padding-bottom: 0.4rem;
 }
 @media screen and (max-width: 640px) {
-  /* line 45, ../sass/salon.sass */
+  /* line 48, ../sass/salon.sass */
   .page-title {
     font-size: 2.2em;
   }
 }
 
-/* line 55, ../sass/salon.sass */
+/* line 58, ../sass/salon.sass */
 .content-wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 59, ../sass/salon.sass */
+/* line 62, ../sass/salon.sass */
 hr {
   color: #c86ac7;
   background-color: #c86ac7;
@@ -464,13 +489,4 @@ hr {
   max-width: 100%;
   height: 1px;
   margin: 15px 0 30px;
-}
-
-/* line 68, ../sass/salon.sass */
-img {
-  max-width: 100% !important;
-  height: 100% !important;
-  -ms-interpolation-mode: bicubic !important;
-  display: inline-block !important;
-  vertical-align: middle !important;
 }
