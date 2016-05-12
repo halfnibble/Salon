@@ -156,10 +156,9 @@ ul.inline {
   display: inline-block;
   list-style: none;
   margin-top: 0;
-  margin-left: -1rem;
   padding: 0;
 }
-/* line 8, ../sass/_lists.sass */
+/* line 7, ../sass/_lists.sass */
 ul.inline li {
   display: block;
   float: left;
@@ -171,22 +170,22 @@ ul.inline li {
   padding: -5px;
   min-width: 120px;
 }
-/* line 18, ../sass/_lists.sass */
+/* line 17, ../sass/_lists.sass */
 ul.inline li a {
   padding: 0.7rem !important;
   color: #c86ac7;
   text-transform: uppercase;
 }
-/* line 22, ../sass/_lists.sass */
+/* line 21, ../sass/_lists.sass */
 ul.inline li:hover {
   background-color: #c86ac7;
 }
-/* line 24, ../sass/_lists.sass */
+/* line 23, ../sass/_lists.sass */
 ul.inline li:hover a {
   color: #FFF;
 }
 
-/* line 28, ../sass/_lists.sass */
+/* line 27, ../sass/_lists.sass */
 ul.plain {
   list-style: none;
   margin-top: 0;
@@ -194,13 +193,13 @@ ul.plain {
   margin-left: -1rem;
   padding: 0;
 }
-/* line 34, ../sass/_lists.sass */
+/* line 33, ../sass/_lists.sass */
 ul.plain li {
   list-style: none;
   margin-left: 1rem;
 }
 
-/* line 38, ../sass/_lists.sass */
+/* line 37, ../sass/_lists.sass */
 li.align-left {
   text-align: left;
 }
@@ -409,6 +408,11 @@ form p::after {
   clear: both;
   display: block;
   height: 0;
+}
+
+/* line 37, ../sass/_contact.sass */
+textarea {
+  height: 6rem !important;
 }
 
 /* line 15, ../sass/salon.sass */
