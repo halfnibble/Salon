@@ -26,27 +26,14 @@ from .secret import SECRET_KEY, DB_LOCATION, SENDGRID_PASSWORD
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['eyecandysalonreno.com', 'eyecandy.nostalg.io', 'localhost',
+    '127.0.0.1']
 
 # Application definition
 
-
-
-
-
 ROOT_URLCONF = 'mysite.urls'
 
-
-
 WSGI_APPLICATION = 'mysite.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
-
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -197,11 +184,13 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
+# Database
+# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'NAME': 'DB_LOCATION',
+        'NAME': DB_LOCATION,
         'PASSWORD': '',
         'PORT': '',
         'USER': ''
@@ -227,6 +216,9 @@ THUMBNAIL_PROCESSORS = (
 # Email settings
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'eyecandyreno'
-EMAIL_HOST_PASSWORD = 'SENDGRID_PASSWORD'
-EMAIL_PORT = 587
+EMAIL_HOST_PASSWORD = SENDGRID_PASSWORD
+EMAIL_PORT = 2525
 EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'no-reply@eyecandysalonreno.com'
+MANAGERS = ('josh@halfnibble.com', 'edward7j@gmail.com',
+        'eyecandysalon775@hotmail.com')
