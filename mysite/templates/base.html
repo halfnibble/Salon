@@ -3,6 +3,9 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>{% block title %}This is my new project home page{% endblock title %}</title>
         <title>Eye Candy Salon</title>
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}">
@@ -13,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="{% static 'foundation/webicons/webicons-master/webicons.css' %}" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %} "/>
         <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %} "/>
-        <link rel="stylesheet" type="text/css" href="{% static 'jsImgSlider/themes/1/js-image-slider.css' %}" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="{% static 'jsImgSlider/themes/1/js-image-slider.css' %}" rel="stylesheet" type="text/css">
         {% render_block "css" %}
     </head>
 
@@ -36,8 +39,6 @@
                     </ul>
                 </div>
             </div>
-
-            <p></p>
 
             <header class="align-center row collapse">
                 <div class="medium-6 small-8 small-offset-2 medium-offset-0 columns">

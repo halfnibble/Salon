@@ -16,7 +16,7 @@
 /* line 15, ../sass/_fonts.sass */
 .candy-fonts p {
   margin-left: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #FFF;
 }
 /* line 19, ../sass/_fonts.sass */
@@ -40,10 +40,11 @@
 @media screen and (max-width: 640px) {
   /* line 25, ../sass/_fonts.sass */
   .candy-fonts h2 {
-    font-size: 2.2em;
+    font-size: 1.6em;
+    text-align: left;
   }
 }
-/* line 31, ../sass/_fonts.sass */
+/* line 32, ../sass/_fonts.sass */
 .candy-fonts h4 {
   font-family: Oswald, Georgia, Sans Serif;
   color: #ADAFB2;
@@ -272,7 +273,7 @@ img.slider-image-content {
 @media screen and (max-width: 640px) {
   /* line 2, ../sass/_bio.sass */
   .artists h1 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 }
 /* line 9, ../sass/_bio.sass */
@@ -284,13 +285,13 @@ img.slider-image-content {
 @media screen and (max-width: 640px) {
   /* line 9, ../sass/_bio.sass */
   .artists h2 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 }
 /* line 16, ../sass/_bio.sass */
 .artists h3 {
   font-family: Cantarell, Cabin, Sans Serif;
-  font-size: 2em;
+  font-size: 1.6em;
   text-decoration: bold;
   font-style: none;
   color: #FFF;
@@ -306,7 +307,7 @@ img.slider-image-content {
 /* line 31, ../sass/_bio.sass */
 .artists ul {
   font-family: Cantarell, Cabin, Sans Serif;
-  font-size: 2.5em;
+  font-size: 2em;
   text-decoration: bold;
   color: #FFF;
 }
@@ -315,7 +316,7 @@ img.slider-image-content {
   color: #FFF;
   font-family: Cantarell, Cabin, Sans Serif;
   list-style: none;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 /* line 44, ../sass/_bio.sass */
 .artists p {
@@ -344,22 +345,22 @@ img.slider-image-content {
 /* line 11, ../sass/_services.sass */
 .prices ul {
   font-family: Cantarell, Cabin, Sans Serif;
-  font-size: 2.5em;
+  font-size: 2.2em;
   color: #c86ac7;
 }
-/* line 16, ../sass/_services.sass */
+/* line 15, ../sass/_services.sass */
 .prices li {
   color: #FFF;
   list-style: none;
   font-family: Cantarell, Cabin, Sans Serif;
-  font-size: 0.55em;
+  font-size: 0.7em;
 }
-/* line 21, ../sass/_services.sass */
+/* line 20, ../sass/_services.sass */
 .prices li span.price {
   font-family: Shadows Into Light;
   font-size: 1.3em;
 }
-/* line 25, ../sass/_services.sass */
+/* line 24, ../sass/_services.sass */
 .prices p {
   color: white;
   font-family: Cantarell, Cabin, Sans Serif;
@@ -442,7 +443,7 @@ header h1 {
 @media screen and (min-width: 600px) {
   /* line 33, ../sass/salon.sass */
   #product-logos {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -474,7 +475,7 @@ body {
 @media screen and (max-width: 640px) {
   /* line 48, ../sass/salon.sass */
   .page-title {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 }
 
