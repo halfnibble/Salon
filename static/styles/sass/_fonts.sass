@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Cantarell:400,400italic,700|Cabin:400,700")
+@import url("https://fonts.googleapis.com/css?family=Pacifico")
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light")
+
+$header_font: Oswald, Georgia, Sans Serif
+$p_font: Cantarell, Cabin, Sans Serif
+$h1_font: Pacifico
+$fancy_font: Shadows Into Light
+
+.candy-fonts
+    font-family: $p_font
+    font-size: 1em
+    color: white
+    text-align: center
+    p
+        margin-left: 1.5rem
+        font-size: 1.3rem
+        color: #FFF
+        span
+            font-style: italic
+    a
+        color: white
+    a:hover
+        color: black
+    h2
+        font-size: 2.5em
+        font-family: $p_font
+        color: white
+        @media screen and (max-width: 640px)
+            font-size: 1.6em
+            text-align: left
+    h4
+        font-family: $header_font
+        color: $silver

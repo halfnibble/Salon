@@ -1,0 +1,69 @@
+#main-menu
+    position: relative
+
+#menu-line
+    position: absolute
+    top: 49%
+    height: 1px
+    border-top: 2px solid $main_color
+    width: 100%
+    z-index: 5
+
+#menu-container
+    position: relative
+    z-index: 10
+
+
+// In page menu
+.menu-bar
+    background-color: #1e1e1e
+    ul
+        text-align: center
+        a:hover
+            color: black
+        margin: 0 auto
+    a
+        color: white
+        font-family: $header_font
+        font-size: 1.65em
+        @media screen and (max-width: 640px)
+            font-size: 1em
+
+// Top bar menu text
+.menu-text
+    font-family: $header_font
+    text-transform: uppercase
+    font-size: 14.65em
+    @media screen and (max-width: 640px)
+        font-size: 1em
+    color: $main_color
+
+
+// Mobile Menu
+.title-bar
+    background-color: #1e1e1e
+
+.top-bar
+    position: fixed
+    top: 0.25rem
+    left: 0.25rem
+    z-index: 300
+    background-color: #1e1e1e
+    border: 1px solid $main_color
+    max-width: 100%
+    ul
+        background-color: #1e1e1e
+    a
+        color: #FFF
+        font-family: $header_font
+        font-size: 1.4em
+        margin: 0 auto
+        align: center
+        padding: 0.7rem 0rem
+        &:hover
+            color: $main_color
+    li
+        display: inline-block
+    li.active
+        a
+            color: $main_color

@@ -1,0 +1,38 @@
+label
+    font-size: 1.4rem
+    color: #FFF
+    font-family: $p_font
+
+input[type="submit"]
+    display: block !important
+    clear: both
+    text-align: center
+    line-height: 1
+    cursor: pointer
+    -webkit-appearance: none
+    transition: background-color 0.25s ease-out, color 0.25s ease-out
+    vertical-align: middle
+    border: 5px solid transparent
+    border-radius: 0
+    padding: 0.85em 1em
+    margin: 0 auto 1rem
+    font-size: 0.9rem
+    background-color: $main-color
+
+
+label
+    float: left
+
+input[type="checkbox"]
+    float: right
+    margin-top: 14px
+
+form p
+    &::after
+        content: " "
+        clear: both
+        display: block
+        height: 0
+
+textarea
+    height: 6rem !important
