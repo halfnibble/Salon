@@ -10,58 +10,82 @@
     <br>
     <br>
     <div class="row">
-        <!-- Left column. Shows at top for small screens. -->
-        <div class="small-12 align-center">
-          <h1 class="align-center"><span class="pink"> We offer hair, nail, and extension services.</span> Our stylists are independent contractors and prices may vary.</h1>
-          <br>
-            <a href="https://www.schedulicity.com/scheduling/ECSB76" class="schedule-button align-center" style="color:white;">Schedule Now!</a>
+      <!-- Left column. Shows at top for small screens. -->
+      <div class="small-12 align-center">
+        <h1 class="align-center"><span class="pink"> We offer hair, nail, and extension services.</span> Our stylists are independent contractors and prices may vary.</h1>
+        <br>
+          <a href="https://www.schedulicity.com/scheduling/ECSB76" class="schedule-button align-center" style="color:white;">Schedule Now!</a>
+      </div>
+
+
+      <div class="owl-carousel owl-theme">
+
+        <div class="small-6 medium-12 columns">
+            <div class="flex-video video-top-padded " style="border: 1px solid #C86AC7;">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/wt_CTWdaM4k" frameborder="0" allowfullscreen></iframe>
+                <br>
+            </div>
         </div>
 
+          <div class="small-6 medium-12 columns">
+                <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/XE-VqHuDVQI" frameborder="0" allowfullscreen></iframe>
+                    <br>
+                </div>
+            </div>
 
+            <div class="small-6 medium-12 columns">
+                <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/RtDp8d2_Zr0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
 
-          <div class="row">
-            <div class="small-offset-1">
+            <div class="small-6 medium-12 columns">
+                <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/X4qBaLosQ4I" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
 
-              <br>
-              <br>
-              <div class="small-10 columns">
-                  <div class="flex-video video-top-padded " style="border: 1px solid #C86AC7;">
-                      <iframe width="420" height="315" src="https://www.youtube.com/embed/wt_CTWdaM4k" frameborder="0" allowfullscreen></iframe>
-                      <br>
-                  </div>
-              </div>
+            <div class="small-6 medium-12 columns end">
+                <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/TI6naHbgY90" frameborder="0" allowfullscreen></iframe>
 
-              <div class="small-2 columns">
-                  <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
-                      <iframe width="420" height="315" src="https://www.youtube.com/embed/XE-VqHuDVQI" frameborder="0" allowfullscreen></iframe>
-                      <br>
-                  </div>
-              </div>
+                </div>
 
-              <div class="small-2 columns">
-                  <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
-                      <iframe width="420" height="315" src="https://www.youtube.com/embed/RtDp8d2_Zr0" frameborder="0" allowfullscreen></iframe>
-                  </div>
-              </div>
+            </div>
+      </div>
 
-              <div class="small-2 columns">
-                  <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
-                      <iframe width="420" height="315" src="https://www.youtube.com/embed/X4qBaLosQ4I" frameborder="0" allowfullscreen></iframe>
-                  </div>
-              </div>
-
-              <div class="small-2 columns end">
-                  <div class="flex-video video-top-padded" style="border: 1px solid #C86AC7;">
-                      <iframe width="420" height="315" src="https://www.youtube.com/embed/TI6naHbgY90" frameborder="0" allowfullscreen></iframe>
-                  </div>
-              </div>
-          </div>
-
-
-        </div>
         <h3 class="align-center" style="color: #c86ac7; font-family:Shadows Into Light;"> Watch the videos to see what our fabulous products and stylists will do for you!</h3>
 
-    </div>
+
+
+
+  </div>
+
+
+    
+
+
+      <script>
+
+      $('.owl-carousel').owlCarousel({
+          items:1,
+          merge:true,
+          loop:true,
+          margin:10,
+          video:true,
+          lazyLoad:true,
+          center:true,
+          responsive:{
+              480:{
+                  items:2
+              },
+              600:{
+                  items:4
+              }
+          }
+      })
+      </script>
 
     <footer>
         {% static_placeholder 'footer' %}
